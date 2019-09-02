@@ -1,0 +1,1165 @@
+
+*** Running vivado
+    with args -log compute_weight_compute_weight_2_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source compute_weight_compute_weight_2_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source compute_weight_compute_weight_2_0_0.tcl -notrace
+Command: synth_design -top compute_weight_compute_weight_2_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19264 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 463.621 ; gain = 96.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'compute_weight_compute_weight_2_0_0' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ip/compute_weight_compute_weight_2_0_0/synth/compute_weight_compute_weight_2_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'compute_weight_2' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:12' bound to instance 'U0' of component 'compute_weight_2' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ip/compute_weight_compute_weight_2_0_0/synth/compute_weight_compute_weight_2_0_0.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:291]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:294]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:299]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:319]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:321]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:324]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:326]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:328]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:330]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:332]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:334]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:336]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:338]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:340]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:342]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:344]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:346]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:348]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:350]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:352]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:382]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:388]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:393]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:399]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:402]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:405]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:408]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:411]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:414]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:416]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:426]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:440]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:444]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:448]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:452]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:553]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:557]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:626]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:657]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:664]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:928]
+	Parameter DataWidth bound to: 1 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_bkb' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:65' bound to instance 'last_U' of component 'compute_weight_2_bkb' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1047]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_bkb' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:78]
+	Parameter DataWidth bound to: 1 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_bkb_rom' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:12' bound to instance 'compute_weight_2_bkb_rom_U' of component 'compute_weight_2_bkb_rom' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_bkb_rom' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:27]
+	Parameter DWIDTH bound to: 1 - type: integer 
+	Parameter AWIDTH bound to: 12 - type: integer 
+	Parameter MEM_SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_bkb_rom' (1#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_bkb' (2#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:78]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_cud' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:101' bound to instance 'v_in_V_U' of component 'compute_weight_2_cud' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1059]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_cud' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:119]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_cud_ram' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:13' bound to instance 'compute_weight_2_cud_ram_U' of component 'compute_weight_2_cud_ram' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_cud_ram' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:34]
+	Parameter MEM_TYPE bound to: block - type: string 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 12 - type: integer 
+	Parameter MEM_SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_cud_ram' (3#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_cud' (4#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_cud.vhd:119]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_dEe' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:92' bound to instance 'output_temp_V_U' of component 'compute_weight_2_dEe' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1076]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_dEe' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:111]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_dEe_ram' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:13' bound to instance 'compute_weight_2_dEe_ram_U' of component 'compute_weight_2_dEe_ram' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_dEe_ram' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:35]
+	Parameter MEM_TYPE bound to: block - type: string 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 12 - type: integer 
+	Parameter MEM_SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_dEe_ram' (5#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_dEe' (6#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_dEe.vhd:111]
+INFO: [Synth 8-3491] module 'sqrt_fixed_32_16_s' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:12' bound to instance 'grp_sqrt_fixed_32_16_s_fu_822' of component 'sqrt_fixed_32_16_s' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1094]
+INFO: [Synth 8-638] synthesizing module 'sqrt_fixed_32_16_s' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'sqrt_fixed_32_16_s' (7#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:21]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 6 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_eOg' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_eOg.vhd:11' bound to instance 'compute_weight_2_eOg_U2' of component 'compute_weight_2_eOg' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1101]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_eOg' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_eOg.vhd:27]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 6 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_ap_uitofp_4_no_dsp_32' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_uitofp_4_no_dsp_32.vhd:59' bound to instance 'compute_weight_2_ap_uitofp_4_no_dsp_32_u' of component 'compute_weight_2_ap_uitofp_4_no_dsp_32' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_eOg.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_ap_uitofp_4_no_dsp_32' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_uitofp_4_no_dsp_32.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: virtex7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_C_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 4 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/c4f7/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_uitofp_4_no_dsp_32.vhd:198]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_ap_uitofp_4_no_dsp_32' (22#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_uitofp_4_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_eOg' (23#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_eOg.vhd:27]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_fYi' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_fYi.vhd:11' bound to instance 'compute_weight_2_fYi_U3' of component 'compute_weight_2_fYi' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1114]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_fYi' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_fYi.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_ap_fpext_0_no_dsp_32' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_fpext_0_no_dsp_32.vhd:59' bound to instance 'compute_weight_2_ap_fpext_0_no_dsp_32_u' of component 'compute_weight_2_ap_fpext_0_no_dsp_32' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_fYi.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_ap_fpext_0_no_dsp_32' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_fpext_0_no_dsp_32.vhd:68]
+	Parameter C_XDEVICEFAMILY bound to: virtex7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 0 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/c4f7/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_fpext_0_no_dsp_32.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_ap_fpext_0_no_dsp_32' (28#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/ip/compute_weight_2_ap_fpext_0_no_dsp_32.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_fYi' (29#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_fYi.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 52 - type: integer 
+	Parameter din0_WIDTH bound to: 48 - type: integer 
+	Parameter din1_WIDTH bound to: 25 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_g8j' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:231' bound to instance 'compute_weight_2_g8j_U4' of component 'compute_weight_2_g8j' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1124]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_g8j' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:249]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 52 - type: integer 
+	Parameter din0_WIDTH bound to: 48 - type: integer 
+	Parameter din1_WIDTH bound to: 25 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+	Parameter in0_WIDTH bound to: 48 - type: integer 
+	Parameter in1_WIDTH bound to: 25 - type: integer 
+	Parameter out_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_g8j_div' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:110' bound to instance 'compute_weight_2_g8j_div_U' of component 'compute_weight_2_g8j_div' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:272]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_g8j_div' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:127]
+	Parameter in0_WIDTH bound to: 48 - type: integer 
+	Parameter in1_WIDTH bound to: 25 - type: integer 
+	Parameter out_WIDTH bound to: 32 - type: integer 
+	Parameter in0_WIDTH bound to: 48 - type: integer 
+	Parameter in1_WIDTH bound to: 25 - type: integer 
+	Parameter out_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'compute_weight_2_g8j_div_u' declared at 'c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:12' bound to instance 'compute_weight_2_g8j_div_u_0' of component 'compute_weight_2_g8j_div_u' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'compute_weight_2_g8j_div_u' [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:39]
+	Parameter in0_WIDTH bound to: 48 - type: integer 
+	Parameter in1_WIDTH bound to: 25 - type: integer 
+	Parameter out_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_g8j_div_u' (30#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_g8j_div' (31#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2_g8j' (32#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:249]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_2' (33#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'compute_weight_compute_weight_2_0_0' (34#1) [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ip/compute_weight_compute_weight_2_0_0/synth/compute_weight_compute_weight_2_0_0.vhd:71]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port CLK
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design special_detect has unconnected port A[31]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port SINIT
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port m_axis_result_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port m_axis_result_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port aclken
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port aresetn
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_a_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_a_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tvalid
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[31]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[30]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[29]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[28]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[27]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[26]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[25]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[24]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[23]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[22]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[21]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[20]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[19]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[18]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[17]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[16]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[15]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[14]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[13]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[12]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[11]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[10]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[9]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[8]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[7]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[6]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[5]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[4]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[3]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[2]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[1]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tvalid
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[31]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[30]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[29]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[28]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[27]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 610.801 ; gain = 243.711
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 610.801 ; gain = 243.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 610.801 ; gain = 243.711
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 277 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ip/compute_weight_compute_weight_2_0_0/constraints/compute_weight_2_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ip/compute_weight_compute_weight_2_0_0/constraints/compute_weight_2_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/compute_weight_compute_weight_2_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/compute_weight_compute_weight_2_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  FDE => FDRE: 16 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.198 . Memory (MB): peak = 955.586 ; gain = 3.617
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 955.586 ; gain = 588.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 955.586 ; gain = 588.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/compute_weight_compute_weight_2_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 955.586 ; gain = 588.496
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element q0_reg was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_bkb.vhd:54]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:1235]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:1194]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:1200]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:1203]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:1209]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/sqrt_fixed_32_16_s.vhd:1212]
+INFO: [Synth 8-5544] ROM "icmp_fu_496_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tmp_s_fu_320_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_30_fu_2260_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_33_fu_2473_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_36_fu_2683_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_39_fu_2893_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_42_fu_3103_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_45_fu_3313_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_48_fu_3533_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_50_fu_3610_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_39_8_fu_2011_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_40_8_fu_2017_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3936] Found unconnected internal register 'remd_tmp_reg' and it is trimmed from '48' to '47' bits. [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:96]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp32_V_reg_3748_reg' and it is trimmed from '32' to '23' bits. [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1897]
+WARNING: [Synth 8-3936] Found unconnected internal register 'OP2_V_1_cast_reg_3129_reg' and it is trimmed from '48' to '32' bits. [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1660]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_reg_732_pp0_iter2_reg_reg' and it is trimmed from '13' to '12' bits. [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1697]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_reg_732_pp0_iter1_reg_reg' and it is trimmed from '13' to '12' bits. [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1688]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "exitcond1_fu_849_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond2_fu_1129_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_fu_2767_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_31_fu_891_p2" won't be mapped to RAM because address size (63) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "icmp1_fu_1650_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_55_fu_1630_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "input_data_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_37_fu_956_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "icmp_fu_976_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "output_data_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "tmp_39_fu_2799_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_42_fu_2851_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond1_fu_849_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond2_fu_1129_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_fu_2767_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_31_fu_891_p2" won't be mapped to RAM because address size (63) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "icmp1_fu_1650_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_55_fu_1630_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "input_data_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_37_fu_956_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "icmp_fu_976_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "output_data_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "tmp_39_fu_2799_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_42_fu_2851_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_data_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_data_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_last_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_last_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_data_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_data_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num_zeros_fu_2819_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-3971] The signal ram_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:50 . Memory (MB): peak = 955.586 ; gain = 588.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized3) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_DEL' (delay__parameterized16) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized17) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized17) to 'U0/compute_weight_2_eOg_U2/compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_fYi_U3/compute_weight_2_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_fYi_U3/compute_weight_2_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_fYi_U3/compute_weight_2_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_fYi_U3/compute_weight_2_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/compute_weight_2_fYi_U3/compute_weight_2_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/compute_weight_2_fYi_U3/compute_weight_2_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "tmp_40_8_fu_2017_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_39_8_fu_2011_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_30_fu_2260_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_33_fu_2473_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_36_fu_2683_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_39_fu_2893_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_42_fu_3103_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_45_fu_3313_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_48_fu_3533_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_50_fu_3610_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "FLT_TO_FLT_OP.SPD.OP/EXP/COND_DET/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FLT_TO_FLT_OP.SPD.OP/EXP/COND_DET/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element compute_weight_2_g8j_div_U/remd_reg was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2_g8j.vhd:216]
+INFO: [Synth 8-5546] ROM "exitcond1_fu_849_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond2_fu_1129_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_fu_2767_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_39_fu_2799_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_42_fu_2851_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_37_fu_956_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_31_fu_891_p2" won't be mapped to RAM because address size (63) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "icmp_fu_976_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_55_fu_1630_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "icmp1_fu_1650_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element i_2_reg_811_reg_rep was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1595]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3091]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3109]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3362]
+WARNING: [Synth 8-6014] Unused sequential element tmp_81_cast_reg_2985_reg was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1678]
+WARNING: [Synth 8-6014] Unused sequential element reg_839_reg was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1639]
+WARNING: [Synth 8-6014] Unused sequential element reg_844_reg was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1650]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3091]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3091]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3091]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3091]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3109]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3109]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3109]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3109]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3362]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3362]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:3362]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ipshared/a3b3/hdl/vhdl/compute_weight_2.vhd:1678]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+INFO: [Synth 8-3971] The signal output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[5]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[6]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[7]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[8]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[9]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[10]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[11]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[12]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[13]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[14]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[15]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[16]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[17]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_1_reg_3758_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[18]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[19]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_1_reg_3758_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[20]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[21]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_1_reg_3758_reg[2] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[22]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[23]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_1_reg_3758_reg[3] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[24]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[25]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_1_reg_3758_reg[4] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[26]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_1_reg_3758_reg[5] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_reg[27]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_1_reg_3764_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[5]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[6]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[7]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[8]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[9]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[10]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[11]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[12]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[13]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[14]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[15]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter1_reg_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\x_l_I_1_4_reg_3793_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\x_l_I_1_4_reg_3793_reg[18] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[16]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_4_reg_3793_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[17]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_4_reg_3793_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[18]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_4_reg_3793_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[19]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_4_reg_3793_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[20]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_4_reg_3793_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter1_reg_reg[21]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_l_I_1_4_reg_3793_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[5]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[6]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[7]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[8]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[9]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[10]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[11]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[12]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[13]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[14]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/x_V_read_reg_3748_pp0_iter2_reg_reg[15]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_12_reg_3753_pp0_iter2_reg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[5]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[6]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[5]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_79_reg_3931_reg[6]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_78_reg_3926_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_76_reg_3921_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_76_reg_3921_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_76_reg_3921_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_76_reg_3921_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_76_reg_3921_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_76_reg_3921_reg[5]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_55_reg_3916_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_55_reg_3916_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_53_reg_3906_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_53_reg_3906_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_53_reg_3906_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_74_reg_3911_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_74_reg_3911_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_74_reg_3911_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_74_reg_3911_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_74_reg_3911_reg[4]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_72_reg_3901_reg[0]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/res_I_1_7_reg_3830_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_72_reg_3901_reg[1]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_72_reg_3901_reg[2]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_72_reg_3901_reg[3]' (FD) to 'U0/grp_sqrt_fixed_32_16_s_fu_822/tmp_14_reg_3866_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_1_reg_3948_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_Val2_17_2_reg_3954_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_114_reg_3064_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/compute_weight_2_g8j_U4/\compute_weight_2_g8j_div_U/divisor0_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_106_reg_2921_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/compute_weight_2_eOg_U2/\compute_weight_2_ap_uitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/NEED_Z_DET.Z_DET/ENCODE[1].DIST_OVER_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_6_19/\indvars_iv_reg_744_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_6_19/\indvars_iv_reg_744_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_6_19/\indvars_iv_reg_744_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_6_19/\indvars_iv_reg_744_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_6_19/\indvars_iv_reg_744_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_6_19/\indvars_iv_reg_744_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_4_reg_3787_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_4_reg_3787_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_4_reg_3787_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\x_l_I_1_7_reg_3821_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\x_l_I_1_7_reg_3821_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_2_reg_3985_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_115_reg_3098_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/compute_weight_2_g8j_U4/\compute_weight_2_g8j_div_U/compute_weight_2_g8j_div_u_0/dividend0_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_107_reg_2948_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\res_I_1_6_reg_3810_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_4_reg_4024_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_Val2_17_5_reg_4030_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_6_reg_4077_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_Result_56_7_reg_4083_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_7_reg_4100_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\p_0426_1_8_reg_4129_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\sel_tmp14_reg_4166_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\sel_tmp14_reg_4166_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\sel_tmp14_reg_4166_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/grp_sqrt_fixed_32_16_s_fu_822/\sel_tmp14_reg_4166_reg[3] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_17_2_reg_3954_reg[12]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_1_reg_3758_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_1_reg_3758_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_1_reg_3758_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_1_reg_3758_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_1_reg_3758_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_1_reg_3758_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_4_reg_3787_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_4_reg_3787_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_4_reg_3787_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (x_l_I_1_4_reg_3793_reg[18]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (x_l_I_1_4_reg_3793_reg[17]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (res_I_1_6_reg_3810_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (x_l_I_1_7_reg_3821_reg[18]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (x_l_I_1_7_reg_3821_reg[17]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[14]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[13]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[12]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[11]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[10]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[9]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[8]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[7]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_1_reg_3948_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[13]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[12]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[11]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[10]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[9]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[8]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[7]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_2_reg_3985_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[10]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[9]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[8]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[7]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_4_reg_4024_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[8]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[7]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_6_reg_4077_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[8]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[7]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_7_reg_4100_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[7]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (p_0426_1_8_reg_4129_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[6]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp14_reg_4166_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp21_reg_4203_reg[5]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp21_reg_4203_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp21_reg_4203_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp21_reg_4203_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp21_reg_4203_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp21_reg_4203_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp28_reg_4240_reg[4]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp28_reg_4240_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp28_reg_4240_reg[2]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp28_reg_4240_reg[1]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp28_reg_4240_reg[0]) is unused and will be removed from module sqrt_fixed_32_16_s.
+WARNING: [Synth 8-3332] Sequential element (sel_tmp35_reg_4277_reg[3]) is unused and will be removed from module sqrt_fixed_32_16_s.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:26 . Memory (MB): peak = 955.586 ; gain = 588.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_1/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_1/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_1/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_1/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_6_87/i_2_reg_811_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 971.703 ; gain = 604.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:45 . Memory (MB): peak = 987.211 ; gain = 620.121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/v_in_V_U/compute_weight_2_cud_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/output_temp_V_U/compute_weight_2_dEe_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:43 ; elapsed = 00:01:51 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6064] Net n_6_2512 is driving 36 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:44 ; elapsed = 00:01:52 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:44 ; elapsed = 00:01:52 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:45 ; elapsed = 00:01:53 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:45 ; elapsed = 00:01:53 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:46 ; elapsed = 00:01:54 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:46 ; elapsed = 00:01:54 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |   577|
+|2     |DSP48E1    |    10|
+|3     |DSP48E1_1  |     2|
+|4     |LUT1       |   333|
+|5     |LUT2       |   896|
+|6     |LUT3       |   917|
+|7     |LUT4       |   660|
+|8     |LUT5       |   796|
+|9     |LUT6       |  1383|
+|10    |MUXCY      |   173|
+|11    |MUXF7      |    15|
+|12    |RAMB18E1_1 |     1|
+|13    |RAMB36E1   |     4|
+|14    |RAMB36E1_1 |     4|
+|15    |SRL16E     |    32|
+|16    |SRLC32E    |     2|
+|17    |XORCY      |    88|
+|18    |FDE        |    16|
+|19    |FDRE       |  3800|
+|20    |FDSE       |     2|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:46 ; elapsed = 00:01:54 . Memory (MB): peak = 1070.176 ; gain = 703.086
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 909 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:37 . Memory (MB): peak = 1070.176 ; gain = 358.301
+Synthesis Optimization Complete : Time (s): cpu = 00:01:46 ; elapsed = 00:01:54 . Memory (MB): peak = 1070.176 ; gain = 703.086
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 890 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 60 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 44 instances
+  FDE => FDRE: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+468 Infos, 231 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1070.176 ; gain = 714.555
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/compute_weight_compute_weight_2_0_0_synth_1/compute_weight_compute_weight_2_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/ECTE433_LabFiles/compute_weight/compute_weight.srcs/sources_1/bd/compute_weight/ip/compute_weight_compute_weight_2_0_0/compute_weight_compute_weight_2_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 63 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/compute_weight_compute_weight_2_0_0_synth_1/compute_weight_compute_weight_2_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file compute_weight_compute_weight_2_0_0_utilization_synth.rpt -pb compute_weight_compute_weight_2_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 1070.176 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  5 17:17:41 2019...

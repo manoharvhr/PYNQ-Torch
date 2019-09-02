@@ -3,6 +3,8 @@ The following folder consists of some accelerators designed for the RNN-based so
 
 In general, we identified two kernels to be accelerated. First of which was the matrix multiplication found within GRUs whereas, the second was weight normalisation.
 
+The folder is organised as follows: For the two kernels, there are separate folders each containing the Vivado and Vivado HLS files, overlay files, and python files from the PyTorch library where the accelerators are to be embedded.
+
 ## PyTorch v0.4.1
 In order to test the work presented here, PyTorch v0.4.1 must be used. To port this, the steps from the **PyTorch Installation** folder can be followed up until the git repository is being cloned. From there, the following steps have to be used instead:
 
@@ -30,3 +32,14 @@ Once complete, let us install the library now:
 ```sh
 python3 setup.py develop
 ```
+
+## Running SampleRNN
+Once PyTorch is ported, the SampleRNN repo can be cloned, the steps can be followed on the repo but executed with the following command and **profiling.py** file, which is compatible with the accelerators designed and also profiles the application to monitor performance:
+```sh
+python3 profiling.py --exp TEST64 --frame_size 16 4 --n_rnn 2 --dataset piano --cuda False --sample_length 16000 --dim 64
+```
+This command generates one second of audio @ 16000Hz
+
+
+## PYNQ-Z1 Image
+An image file with PyTorch v0.4.1 on PYNQ OS v2.3 can be downloaded from [here](). This also includes SampleRNN files.

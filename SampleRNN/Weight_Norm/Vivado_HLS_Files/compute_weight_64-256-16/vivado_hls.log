@@ -1,0 +1,30 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'manoh' on host 'manoharvohra-pc' (Windows NT_amd64 version 6.2) on Fri Apr 05 14:48:31 +0400 2019
+INFO: [HLS 200-10] In directory 'C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16'
+INFO: [HLS 200-10] Opening project 'C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/impl/ip'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'compute_weight_64_256_16_ap_fpext_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'compute_weight_64_256_16_ap_fpext_0_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'compute_weight_64_256_16_ap_fpext_0_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'compute_weight_64_256_16_ap_uitofp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'compute_weight_64_256_16_ap_uitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'compute_weight_64_256_16_ap_uitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  5 14:48:52 2019...

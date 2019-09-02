@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'sqrt_fixed&lt;32, 16>' to 'sqrt_fixed_32_16_s'." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:11:21.810+0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-124] Array  'input.data': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:11:18.506+0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'input.data' (main.cpp:18)." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:11:16.862+0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'output.data' (main.cpp:18)." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:11:16.738+0400" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-120] main.cpp:40: multiplication is assumed not to overflow by default, otherwise, please add option '-fwrapv'." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:11:16.345+0400" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:264: variable-indexed range selection may cause suboptimal QoR." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:11:16.334+0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'compute_weight_2_ap_uitofp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:12:11.880+0400" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'compute_weight_2_ap_fpext_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;&#xA;create_ip: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 359.488 ; gain = 42.570" projectName="compute_weight_128-128-16" solutionName="solution1" date="2019-04-05T17:12:09.263+0400" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

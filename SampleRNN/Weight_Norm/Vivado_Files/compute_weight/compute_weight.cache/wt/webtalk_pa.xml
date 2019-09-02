@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Aug 31 13:17:31 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="cf41722e887d48dfb611d6b3509f7806" type="ProjectID"/>
+<property name="ProjectIteration" value="29" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CreateBlockDesign" value="1" type="JavaHandler"/>
+<property name="CreateTopHDL" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="26" type="JavaHandler"/>
+<property name="EditCopy" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="9" type="JavaHandler"/>
+<property name="EditPaste" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="ExcludeFromAddrSpace" value="4" type="JavaHandler"/>
+<property name="ExportRSBTclScript" value="21" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="17" type="JavaHandler"/>
+<property name="RegenerateRSBLayout" value="38" type="JavaHandler"/>
+<property name="ReportIPStatus" value="9" type="JavaHandler"/>
+<property name="RunBitgen" value="29" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="31" type="JavaHandler"/>
+<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="ToolsSettings" value="21" type="JavaHandler"/>
+<property name="UpgradeIP" value="22" type="JavaHandler"/>
+<property name="ValidateRSBDesign" value="5" type="JavaHandler"/>
+<property name="ZoomFit" value="9" type="JavaHandler"/>
+<property name="ZoomIn" value="10" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS" value="4" type="GuiHandlerData"/>
+<property name="AddRepositoryInfoDialog_OK" value="7" type="GuiHandlerData"/>
+<property name="AddRepositoryInfoDialog_REPOSITORY_TREE" value="7" type="GuiHandlerData"/>
+<property name="AddressTreeTablePanel_ADDRESS_TREE_TABLE" value="57" type="GuiHandlerData"/>
+<property name="ApplyRSBMultiAutomationDialog_CHECKBOX_TREE" value="6" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="46" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="97" type="GuiHandlerData"/>
+<property name="BaseDialog_YES" value="29" type="GuiHandlerData"/>
+<property name="BaseReportTab_RERUN" value="9" type="GuiHandlerData"/>
+<property name="BoardChooser_BOARD_TABLE" value="1" type="GuiHandlerData"/>
+<property name="ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE" value="21" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="3" type="GuiHandlerData"/>
+<property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="3" type="GuiHandlerData"/>
+<property name="CreateNewDiagramDialog_DESIGN_NAME" value="1" type="GuiHandlerData"/>
+<property name="CustomizeCoreDialog_DOCUMENTATION" value="1" type="GuiHandlerData"/>
+<property name="CustomizeCoreDialog_IP_LOCATION" value="1" type="GuiHandlerData"/>
+<property name="DDRConfigTreeTablePanel_DDR_CONFIG_TREE_TABLE" value="12" type="GuiHandlerData"/>
+<property name="DefaultOptionPane_CLOSE" value="1" type="GuiHandlerData"/>
+<property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="20" type="GuiHandlerData"/>
+<property name="ExploreAheadView_SHOW_PERCENTAGE" value="12" type="GuiHandlerData"/>
+<property name="ExportRSBTclScriptDialog_SPECIFY_FILE" value="16" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="6" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="38" type="GuiHandlerData"/>
+<property name="GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE" value="25" type="GuiHandlerData"/>
+<property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="HACGCCheckBox_VALUE_OF_SPECIFIED_PARAMETER" value="1" type="GuiHandlerData"/>
+<property name="HACGCCheckBox_VALUE_OF_SPECIFIED_PARAMETER_MANUAL" value="1" type="GuiHandlerData"/>
+<property name="HExceptionDialog_EXIT" value="1" type="GuiHandlerData"/>
+<property name="IPStatusSectionPanel_RE_RUN_REPORT" value="1" type="GuiHandlerData"/>
+<property name="IPStatusSectionPanel_UPGRADE_SELECTED" value="22" type="GuiHandlerData"/>
+<property name="IPStatusTablePanel_IP_STATUS_TABLE" value="3" type="GuiHandlerData"/>
+<property name="MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE" value="5" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CHECKPOINT" value="26" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EDIT" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EXPORT" value="32" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="52" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FLOW" value="3" type="GuiHandlerData"/>
+<property name="MainMenuMgr_HELP" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IP" value="27" type="GuiHandlerData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="8" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="30" type="GuiHandlerData"/>
+<property name="MainMenuMgr_REPORTS" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TEXT_EDITOR" value="25" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TOOLS" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_VIEW" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_WINDOW" value="2" type="GuiHandlerData"/>
+<property name="MainWinMenuMgr_LAYOUT" value="2" type="GuiHandlerData"/>
+<property name="PACommandNames_CREATE_TOP_HDL" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_CUSTOMIZE_RSB_BLOC" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_EXPORT_BD_TCL" value="21" type="GuiHandlerData"/>
+<property name="PACommandNames_INCLUDE_IN_ADDR_SPACE" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_IP_SETTINGS" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_REGENERATE_LAYOUT" value="38" type="GuiHandlerData"/>
+<property name="PACommandNames_RUN_BITGEN" value="32" type="GuiHandlerData"/>
+<property name="PACommandNames_SAVE_PROJECT_AS" value="2" type="GuiHandlerData"/>
+<property name="PACommandNames_SAVE_RSB_DESIGN" value="31" type="GuiHandlerData"/>
+<property name="PACommandNames_VALIDATE_RSB_DESIGN" value="5" type="GuiHandlerData"/>
+<property name="PACommandNames_ZOOM_FIT" value="9" type="GuiHandlerData"/>
+<property name="PACommandNames_ZOOM_IN" value="7" type="GuiHandlerData"/>
+<property name="PlanAheadTab_REFRESH_IP_CATALOG" value="7" type="GuiHandlerData"/>
+<property name="ProgressDialog_BACKGROUND" value="1" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_CHOOSE_PROJECT_LOCATION" value="2" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_PROJECT_NAME" value="2" type="GuiHandlerData"/>
+<property name="RDICommands_CUSTOM_COMMANDS" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_SETTINGS" value="2" type="GuiHandlerData"/>
+<property name="RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION" value="1" type="GuiHandlerData"/>
+<property name="RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION" value="11" type="GuiHandlerData"/>
+<property name="SelectMenu_HIGHLIGHT" value="1" type="GuiHandlerData"/>
+<property name="SettingsDialog_OPTIONS_TREE" value="5" type="GuiHandlerData"/>
+<property name="SettingsDialog_PROJECT_TREE" value="39" type="GuiHandlerData"/>
+<property name="SettingsProjectIPRepositoryPage_ADD_REPOSITORY" value="8" type="GuiHandlerData"/>
+<property name="SettingsProjectIPRepositoryPage_REFRESH_ALL" value="12" type="GuiHandlerData"/>
+<property name="SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER" value="4" type="GuiHandlerData"/>
+<property name="SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL" value="20" type="GuiHandlerData"/>
+<property name="SmartConnect_SHOW_ADVANCED_PROPERTIES" value="1" type="GuiHandlerData"/>
+<property name="SrcFilePropPanels_MORE_INFO" value="1" type="GuiHandlerData"/>
+<property name="SyntheticaGettingStartedView_RECENT_PROJECTS" value="18" type="GuiHandlerData"/>
+<property name="SyntheticaStateMonitor_CANCEL" value="3" type="GuiHandlerData"/>
+<property name="SystemBuilderView_ADD_IP" value="15" type="GuiHandlerData"/>
+<property name="SystemBuilderView_EXPAND_COLLAPSE" value="1" type="GuiHandlerData"/>
+<property name="SystemBuilderView_OPTIMIZE_ROUTING" value="38" type="GuiHandlerData"/>
+<property name="SystemBuilderView_PINNING" value="3" type="GuiHandlerData"/>
+<property name="SystemTab_REPORT_IP_STATUS" value="9" type="GuiHandlerData"/>
+<property name="SystemTab_SHOW_IP_STATUS" value="5" type="GuiHandlerData"/>
+<property name="SystemTreeView_SYSTEM_TREE" value="2" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="256" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="171" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

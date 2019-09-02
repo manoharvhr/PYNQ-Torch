@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  5 17:17:44 2019
+# Process ID: 17952
+# Current directory: C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/synth_1
+# Command line: vivado.exe -log compute_weight_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source compute_weight_wrapper.tcl
+# Log file: C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/synth_1/compute_weight_wrapper.vds
+# Journal file: C:/ECTE433_LabFiles/compute_weight/compute_weight.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source compute_weight_wrapper.tcl -notrace

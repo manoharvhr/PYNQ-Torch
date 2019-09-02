@@ -1,0 +1,749 @@
+INFO-FLOW: Workspace C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1 opened at Fri Apr 05 14:47:01 +0400 2019
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.121 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.171 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.175 sec.
+Command     ap_source done; 0.175 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_hp.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Command     set_part done; 0.117 sec.
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute     config_chip_info -quiet -speed slow 
+Command   open_solution done; 0.397 sec.
+Execute   set_part xc7z020clg400-1 -tool vivado 
+Execute     add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute       get_default_platform 
+Execute       license_isbetapart xc7z020 
+Command       license_isbetapart done; error code: 1; 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed slow 
+Execute     add_library xilinx/zynq/zynq_fpv6 
+Execute       get_default_platform 
+Execute     get_default_platform 
+Command   set_part done; 0.155 sec.
+Execute   create_clock -period 10 -name default 
+Execute   csynth_design 
+Execute     get_config_compile -effort 
+Execute     get_config_compile -enable_clang39 
+Execute     get_config_compile -g 
+Execute     get_config_compile -lm 
+Execute     get_config_compile -ng 
+Execute     get_config_compile -opt_fp 
+Execute     get_config_compile -skip_cdt 
+Execute     get_config_compile -skip_syncheck 
+Execute     get_config_compile -skip_transform 
+Execute     get_config_compile -keep_printf 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute       get_config_schedule -relax_ii_for_timing 
+Execute       get_config_schedule -suppress_dependence_error_break 
+INFO: [HLS 200-10] Analyzing design file 'main.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling main.cpp as C++
+Execute       get_default_platform 
+Execute       is_encrypted main.cpp 
+Execute       get_default_platform 
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2018.2/msys" -hls  -fno-exceptions  -D__llvm__  -E "main.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -fno-exceptions -D__llvm__ -E main.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp
+Command       clang done; 1.22 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2018.2/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp"  -o "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/useless.bc
+Command       clang done; 4.095 sec.
+INFO-FLOW: GCC PP time: 5 seconds per iteration
+Execute       list_core -type functional_unit 
+Execute       tidy_31 xilinx-systemc-detector C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp std=gnu++98 -directive=C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 1.999 sec.
+INFO-FLOW: CDT Preprocessing with tidy-3.1...
+Execute       tidy_31 xilinx-directive2pragma C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp std=gnu++98 -directive=C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/solution1.json 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/solution1.json -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 1.977 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/xilinx-dataflow-lawyer.main.pp.0.cpp.diag.yml C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/xilinx-dataflow-lawyer.main.pp.0.cpp.out.log 2> C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/xilinx-dataflow-lawyer.main.pp.0.cpp.err.log 
+Command       ap_eval done; 1.964 sec.
+Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp std=gnu++98 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 5.556 sec.
+INFO-FLOW: tidy-3.1 time 9 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute       tidy_31 xilinx-ssdm-intrinsics-arguments C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.1.cpp std=gnu++98 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.1.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 3.478 sec.
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2018.2/msys" -hls  -fno-exceptions  -D__llvm__  -E "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.1.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.2.cpp" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -fno-exceptions -D__llvm__ -E C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.1.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.2.cpp
+Command       clang done; 1.114 sec.
+Execute       get_default_platform 
+INFO-FLOW: Processing labels
+Execute       clang -src C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.bc" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.bc
+Command       clang done; 3.708 sec.
+INFO-FLOW: Linking Debug ...
+Execute       llvm-ld C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/main.g.bc -hls-opt -except-internalize compute_weight_64_256_16 -LC:/Xilinx/Vivado/2018.2/win64/lib -lhlsm -lhlsmc++ -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g 
+Command       llvm-ld done; 1.508 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:29 . Memory (MB): peak = 102.199 ; gain = 46.281
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:29 . Memory (MB): peak = 102.199 ; gain = 46.281
+Execute       ::config_rtl 
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+Execute         transform -promote-dbg-pointer C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.pp.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.pp.0.bc -f 
+Command         transform done; 0.245 sec.
+Execute         llvm-ld C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.pp.0.bc -disable-opt -LC:/Xilinx/Vivado/2018.2/win64/lib -lfloatconversion -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.0 
+Command         llvm-ld done; 0.961 sec.
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top compute_weight_64_256_16 -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.0.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [XFORM 203-501] Unrolling loop 'Loop-5.2' (main.cpp:45) in function 'compute_weight_64_256_16(datatype*, datatype*)': changing partial unrolling into complete unrolling since the unrolling factor (=64) is no less than the loop trip count (=64).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<17, 0, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator>>' into 'sqrt_fixed<32, 16>' (C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:334).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'compute_weight_64_256_16' (main.cpp:54).
+Command         transform done; 6.426 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:08 ; elapsed = 00:00:37 . Memory (MB): peak = 181.613 ; gain = 125.695
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.1.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO: [XFORM 203-602] Inlining function 'hls::sqrt<32, 16>' into 'compute_weight_64_256_16' (main.cpp:44) automatically.
+Command         transform done; 0.34 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.2.prechk.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+WARNING: [SYNCHK 200-23] C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:264: variable-indexed range selection may cause suboptimal QoR.
+WARNING: [SYNCHK 200-120] main.cpp:41: multiplication is assumed not to overflow by default, otherwise, please add option '-fwrapv'.
+INFO: [SYNCHK 200-10] 0 error(s), 2 warning(s).
+Command         transform done; 0.278 sec.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:08 ; elapsed = 00:00:37 . Memory (MB): peak = 204.035 ; gain = 148.117
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.g.1.bc to C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.1.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'output.data' (main.cpp:18).
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'input.data' (main.cpp:18).
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'sqrt_fixed<32, 16>' (C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:39:13).
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:262) in function 'sqrt_fixed<32, 16>' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2' (C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:280) in function 'sqrt_fixed<32, 16>' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2.2' (main.cpp:45) in function 'compute_weight_64_256_16': changing partial unrolling into complete unrolling since the unrolling factor (=64) is no less than the loop trip count (=64).
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2.1' (main.cpp:39) in function 'compute_weight_64_256_16' partially with a factor of 16.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2.2' (main.cpp:45) in function 'compute_weight_64_256_16' completely.
+INFO: [XFORM 203-602] Inlining function 'hls::sqrt<32, 16>' into 'compute_weight_64_256_16' (main.cpp:44) automatically.
+Command         transform done; 1.615 sec.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.1.tmp.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:39:1) to (C:/Xilinx/Vivado/2018.2/common/technology/autopilot/hls_sqrt_apfixed.h:345:1) in function 'sqrt_fixed<32, 16>'... converting 168 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:29:34) to (main.cpp:29:28) in function 'compute_weight_64_256_16'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (main.cpp:37:23) in function 'compute_weight_64_256_16'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:52:34) to (main.cpp:52:28) in function 'compute_weight_64_256_16'... converting 3 basic blocks.
+Command         transform done; 1.233 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:11 ; elapsed = 00:00:40 . Memory (MB): peak = 262.727 ; gain = 206.809
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -bitwidth -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -dead-allocation-elimination -cdfg-build C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.2.bc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Command         transform done; 2.736 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:14 ; elapsed = 00:00:43 . Memory (MB): peak = 284.738 ; gain = 228.820
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 13.919 sec.
+Command     elaborate done; 41.676 sec.
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'compute_weight_64_256_16' ...
+Execute       ap_set_top_model compute_weight_64_256_16 
+WARNING: [SYN 201-103] Legalizing function name 'sqrt_fixed<32, 16>' to 'sqrt_fixed_32_16_s'.
+Execute       get_model_list compute_weight_64_256_16 -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model compute_weight_64_256_16 
+Execute       preproc_iomode -model sqrt_fixed<32, 16> 
+Execute       get_model_list compute_weight_64_256_16 -filter all-wo-channel 
+INFO-FLOW: Model list for configure: {sqrt_fixed<32, 16>} compute_weight_64_256_16
+INFO-FLOW: Configuring Module : sqrt_fixed<32, 16> ...
+Execute       set_default_model sqrt_fixed<32, 16> 
+Execute       apply_spec_resource_limit sqrt_fixed<32, 16> 
+INFO-FLOW: Configuring Module : compute_weight_64_256_16 ...
+Execute       set_default_model compute_weight_64_256_16 
+Execute       apply_spec_resource_limit compute_weight_64_256_16 
+INFO-FLOW: Model list for preprocess: {sqrt_fixed<32, 16>} compute_weight_64_256_16
+INFO-FLOW: Preprocessing Module: sqrt_fixed<32, 16> ...
+Execute       set_default_model sqrt_fixed<32, 16> 
+Execute       cdfg_preprocess -model sqrt_fixed<32, 16> 
+Execute       rtl_gen_preprocess sqrt_fixed<32, 16> 
+INFO-FLOW: Preprocessing Module: compute_weight_64_256_16 ...
+Execute       set_default_model compute_weight_64_256_16 
+Execute       cdfg_preprocess -model compute_weight_64_256_16 
+Execute       rtl_gen_preprocess compute_weight_64_256_16 
+INFO-FLOW: Model list for synthesis: {sqrt_fixed<32, 16>} compute_weight_64_256_16
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sqrt_fixed_32_16_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model sqrt_fixed<32, 16> 
+Execute       schedule -model sqrt_fixed<32, 16> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'sqrt_fixed<32, 16>'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 17.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.755 sec.
+INFO: [HLS 200-111]  Elapsed time: 43.968 seconds; current allocated memory: 227.459 MB.
+Execute       report -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.verbose.sched.rpt -verbose -f 
+Command       report done; 0.259 sec.
+Execute       db_write -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.sched.adb -f 
+Command       db_write done; 0.228 sec.
+INFO-FLOW: Finish scheduling sqrt_fixed<32, 16>.
+Execute       set_default_model sqrt_fixed<32, 16> 
+Execute       bind -model sqrt_fixed<32, 16> 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=sqrt_fixed<32, 16>
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.262 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.812 seconds; current allocated memory: 229.278 MB.
+Execute       report -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.verbose.bind.rpt -verbose -f 
+Command       report done; 0.819 sec.
+Execute       db_write -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.bind.adb -f 
+Command       db_write done; 0.244 sec.
+INFO-FLOW: Finish binding sqrt_fixed<32, 16>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'compute_weight_64_256_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model compute_weight_64_256_16 
+Execute       schedule -model compute_weight_64_256_16 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 4.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 3'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 11.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.933 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.065 seconds; current allocated memory: 232.431 MB.
+Execute       report -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.verbose.sched.rpt -verbose -f 
+INFO: [HLS 200-434] Only 2 loops out of a total 4 loops have been pipelined in this design.
+Command       report done; 0.653 sec.
+Execute       db_write -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.sched.adb -f 
+Command       db_write done; 0.397 sec.
+INFO-FLOW: Finish scheduling compute_weight_64_256_16.
+Execute       set_default_model compute_weight_64_256_16 
+Execute       bind -model compute_weight_64_256_16 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=compute_weight_64_256_16
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.605 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.768 seconds; current allocated memory: 235.437 MB.
+Execute       report -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.verbose.bind.rpt -verbose -f 
+Command       report done; 1.477 sec.
+Execute       db_write -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.bind.adb -f 
+Command       db_write done; 0.394 sec.
+INFO-FLOW: Finish binding compute_weight_64_256_16.
+Execute       get_model_list compute_weight_64_256_16 -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess sqrt_fixed<32, 16> 
+Execute       rtl_gen_preprocess compute_weight_64_256_16 
+INFO-FLOW: Model list for RTL generation: {sqrt_fixed<32, 16>} compute_weight_64_256_16
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sqrt_fixed_32_16_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model sqrt_fixed<32, 16> -vendor xilinx -mg_file C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sqrt_fixed_32_16_s'.
+Command       create_rtl_model done; 0.247 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.198 seconds; current allocated memory: 239.408 MB.
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute       gen_rtl sqrt_fixed<32, 16> -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/systemc/sqrt_fixed_32_16_s -synmodules {sqrt_fixed<32, 16>} compute_weight_64_256_16 
+Execute       gen_rtl sqrt_fixed<32, 16> -style xilinx -f -lang vhdl -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/vhdl/sqrt_fixed_32_16_s 
+Execute       gen_rtl sqrt_fixed<32, 16> -style xilinx -f -lang vlog -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/verilog/sqrt_fixed_32_16_s 
+Execute       gen_tb_info sqrt_fixed<32, 16> -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s -p C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db 
+Command       gen_tb_info done; 0.27 sec.
+Execute       report -model sqrt_fixed<32, 16> -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/report/sqrt_fixed_32_16_s_csynth.rpt -f 
+Command       report done; 0.355 sec.
+Execute       report -model sqrt_fixed<32, 16> -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/report/sqrt_fixed_32_16_s_csynth.xml -f -x 
+Command       report done; 0.181 sec.
+Execute       report -model sqrt_fixed<32, 16> -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.verbose.rpt -verbose -f 
+Command       report done; 0.958 sec.
+Execute       db_write -model sqrt_fixed<32, 16> -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.adb -f 
+Command       db_write done; 0.569 sec.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'compute_weight_64_256_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model compute_weight_64_256_16 -vendor xilinx -mg_file C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'compute_weight_64_256_16/input_data' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'compute_weight_64_256_16/input_last' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'compute_weight_64_256_16/output_data' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'compute_weight_64_256_16/output_last' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'compute_weight_64_256_16' to 'ap_ctrl_none'.
+INFO: [SYN 201-210] Renamed object name 'compute_weight_64_256_16_last' to 'compute_weight_64bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'compute_weight_64_256_16_v_in_V' to 'compute_weight_64cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'compute_weight_64_256_16_output_temp_V' to 'compute_weight_64dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'compute_weight_64_256_16_uitofp_32ns_32_6_1' to 'compute_weight_64eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'compute_weight_64_256_16_fpext_32ns_64_1_1' to 'compute_weight_64fYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'compute_weight_64_256_16_sdiv_48ns_25ns_32_52_seq_1' to 'compute_weight_64g8j' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'compute_weight_64eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'compute_weight_64fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'compute_weight_64g8j': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'compute_weight_64_256_16'.
+Command       create_rtl_model done; 0.621 sec.
+INFO: [HLS 200-111]  Elapsed time: 4.129 seconds; current allocated memory: 246.291 MB.
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute       gen_rtl compute_weight_64_256_16 -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/systemc/compute_weight_64_256_16 -synmodules {sqrt_fixed<32, 16>} compute_weight_64_256_16 
+Execute       gen_rtl compute_weight_64_256_16 -istop -style xilinx -f -lang vhdl -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/vhdl/compute_weight_64_256_16 
+Command       gen_rtl done; 0.269 sec.
+Execute       gen_rtl compute_weight_64_256_16 -istop -style xilinx -f -lang vlog -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/verilog/compute_weight_64_256_16 
+Command       gen_rtl done; 0.227 sec.
+Execute       export_constraint_db -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.constraint.tcl -f -tool general 
+Execute       report -model compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.design.xml -verbose -f -dv 
+Command       report done; 0.65 sec.
+Execute       report -model compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.sdaccel.xml -verbose -f -sdaccel 
+Command       report done; 0.426 sec.
+Execute       gen_tb_info compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16 -p C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db 
+Execute       report -model compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/report/compute_weight_64_256_16_csynth.rpt -f 
+Command       report done; 0.177 sec.
+Execute       report -model compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/syn/report/compute_weight_64_256_16_csynth.xml -f -x 
+Command       report done; 0.13 sec.
+Execute       report -model compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.verbose.rpt -verbose -f 
+Command       report done; 1.633 sec.
+Execute       db_write -model compute_weight_64_256_16 -o C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.adb -f 
+Command       db_write done; 0.685 sec.
+Execute       sc_get_clocks compute_weight_64_256_16 
+Execute       sc_get_portdomain compute_weight_64_256_16 
+INFO-FLOW: Model list for RTL component generation: {sqrt_fixed<32, 16>} compute_weight_64_256_16
+INFO-FLOW: Handling components in module [sqrt_fixed_32_16_s] ... 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+INFO-FLOW: Handling components in module [compute_weight_64_256_16] ... 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+INFO-FLOW: Found component compute_weight_64eOg.
+INFO-FLOW: Append model compute_weight_64eOg
+INFO-FLOW: Found component compute_weight_64fYi.
+INFO-FLOW: Append model compute_weight_64fYi
+INFO-FLOW: Found component compute_weight_64g8j.
+INFO-FLOW: Append model compute_weight_64g8j
+INFO-FLOW: Found component compute_weight_64bkb.
+INFO-FLOW: Append model compute_weight_64bkb
+INFO-FLOW: Found component compute_weight_64cud.
+INFO-FLOW: Append model compute_weight_64cud
+INFO-FLOW: Found component compute_weight_64dEe.
+INFO-FLOW: Append model compute_weight_64dEe
+INFO-FLOW: Append model sqrt_fixed_32_16_s
+INFO-FLOW: Append model compute_weight_64_256_16
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: compute_weight_64eOg compute_weight_64fYi compute_weight_64g8j compute_weight_64bkb compute_weight_64cud compute_weight_64dEe sqrt_fixed_32_16_s compute_weight_64_256_16
+INFO-FLOW: To file: write model compute_weight_64eOg
+INFO-FLOW: To file: write model compute_weight_64fYi
+INFO-FLOW: To file: write model compute_weight_64g8j
+INFO-FLOW: To file: write model compute_weight_64bkb
+INFO-FLOW: To file: write model compute_weight_64cud
+INFO-FLOW: To file: write model compute_weight_64dEe
+INFO-FLOW: To file: write model sqrt_fixed_32_16_s
+INFO-FLOW: To file: write model compute_weight_64_256_16
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+Execute       get_config_sdx -target 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source done; 0.102 sec.
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source done; 0.148 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.151 sec.
+Command       ap_source done; 0.151 sec.
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+INFO: [RTMG 210-282] Generating pipelined core: 'compute_weight_64g8j_div'
+INFO: [RTMG 210-279] Implementing memory 'compute_weight_64bkb_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'compute_weight_64cud_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'compute_weight_64dEe_ram (RAM)' using block RAMs.
+Command       ap_source done; 0.55 sec.
+Execute       get_config_sdx -target 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source done; 0.162 sec.
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source done; 0.227 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.233 sec.
+Command       ap_source done; 0.233 sec.
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.constraint.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.constraint.tcl 
+Execute       sc_get_clocks compute_weight_64_256_16 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/impl/misc/compute_weight_64_256_16_ap_fpext_0_no_dsp_32_ip.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/impl/misc/compute_weight_64_256_16_ap_uitofp_4_no_dsp_32_ip.tcl 
+Execute       get_config_sdx -target 
+Execute       get_config_sdx -profile 
+Execute       ::config_rtl 
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:27 ; elapsed = 00:01:03 . Memory (MB): peak = 328.301 ; gain = 272.383
+INFO: [SYSC 207-301] Generating SystemC RTL for compute_weight_64_256_16.
+INFO: [VHDL 208-304] Generating VHDL RTL for compute_weight_64_256_16.
+INFO: [VLOG 209-307] Generating Verilog RTL for compute_weight_64_256_16.
+Command     autosyn done; 20.147 sec.
+Command   csynth_design done; 61.835 sec.
+Command ap_source done; 62.419 sec.
+Execute cleanup_all 
+INFO-FLOW: Workspace C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1 opened at Fri Apr 05 14:48:31 +0400 2019
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.111 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.165 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.168 sec.
+Command     ap_source done; 0.168 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_hp.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute     config_chip_info -quiet -speed slow 
+Command   open_solution done; 0.309 sec.
+Execute   export_design -rtl vhdl -format ip_catalog 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.107 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.154 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.157 sec.
+Command     ap_source done; 0.157 sec.
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     get_config_sdx -target 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.111 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.158 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.162 sec.
+Command     ap_source done; 0.162 sec.
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/sqrt_fixed_32_16_s.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.constraint.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.constraint.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.constraint.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/compute_weight_64_256_16.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/compute_weight_64-256-16/compute_weight_64-256-16/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.159 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.221 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.225 sec.
+Command     ap_source done; 0.226 sec.
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command   export_design done; 21.599 sec.
+Command ap_source done; 21.914 sec.
+Execute cleanup_all 

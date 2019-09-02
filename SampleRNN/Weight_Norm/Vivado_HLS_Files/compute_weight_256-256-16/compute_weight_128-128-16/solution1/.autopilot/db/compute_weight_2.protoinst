@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"compute_weight_2": {
+			"proto_instances": {
+			}
+		}
+	}
+}
