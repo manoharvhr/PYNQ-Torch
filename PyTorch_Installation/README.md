@@ -79,5 +79,9 @@ x = torch.randn(5,5)
 y = torch.randn(5,5)
 print(x+y)
 ```
+
+## Image File
+For your convenience, an image file with everything pre-installed is available [here]().
+
 ## Simple illustration of the Framework
 Now that we have ported PyTorch on the board, we can begin embedding accelerators within machine learning-based applications. An example is can be found in the **Example** folder.
