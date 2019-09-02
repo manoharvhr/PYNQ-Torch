@@ -47,7 +47,7 @@ apt-get install libopenblas-dev cython3 libatlas-base-dev m4 libblas-dev cmake c
 pip3 install --user pyyaml numpy typing
 shutdown -r now
 ```
-Clone the PyTorch git repo and checkout v1.2.0:
+Clone the PyTorch git repo and checkout v1.2.0. **Note:**If you plan to use SampleRNN, please follow the steps from the **SampleRNN** folder from here on:
 ```sh
 sudo su
 git clone --recursive https://github.com/pytorch/pytorch
