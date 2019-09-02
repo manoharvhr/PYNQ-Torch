@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Mar  7 16:52:03 2019
+# Process ID: 22928
+# Current directory: C:/ECTE433_LabFiles/sampleRNN_GRU/sampleRNN_GRU.runs/impl_1
+# Command line: vivado.exe -log sampleRNN_GRU_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sampleRNN_GRU_wrapper.tcl -notrace
+# Log file: C:/ECTE433_LabFiles/sampleRNN_GRU/sampleRNN_GRU.runs/impl_1/sampleRNN_GRU_wrapper.vdi
+# Journal file: C:/ECTE433_LabFiles/sampleRNN_GRU/sampleRNN_GRU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sampleRNN_GRU_wrapper.tcl -notrace

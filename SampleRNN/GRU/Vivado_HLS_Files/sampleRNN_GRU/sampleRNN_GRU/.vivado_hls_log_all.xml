@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'input.data' (main.cpp:20)." projectName="sampleRNN_GRU" solutionName="solution1" date="2019-03-10T19:47:21.236+0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'output.data' (main.cpp:20)." projectName="sampleRNN_GRU" solutionName="solution1" date="2019-03-10T19:47:21.136+0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'sampleRNN_GRU_ap_uitofp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="sampleRNN_GRU" solutionName="solution1" date="2019-03-10T19:48:24.242+0400" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'sampleRNN_GRU_ap_fpext_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;&#xA;create_ip: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 359.066 ; gain = 40.922" projectName="sampleRNN_GRU" solutionName="solution1" date="2019-03-10T19:48:21.822+0400" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

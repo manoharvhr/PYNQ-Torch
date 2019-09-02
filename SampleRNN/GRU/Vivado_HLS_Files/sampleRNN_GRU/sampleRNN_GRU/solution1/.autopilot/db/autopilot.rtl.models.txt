@@ -1,0 +1,8 @@
+sampleRNN_GRU_uitg8j
+sampleRNN_GRU_fpehbi
+sampleRNN_GRU_last
+sampleRNN_GRU_x_V
+sampleRNN_GRU_outbkb
+sampleRNN_GRU_w_icud
+sampleRNN_GRU_b_idEe
+sampleRNN_GRU

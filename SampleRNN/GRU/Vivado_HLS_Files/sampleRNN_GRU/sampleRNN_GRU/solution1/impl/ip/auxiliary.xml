@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="sampleRNN_GRU" xd:componentRef="sampleRNN_GRU" xd:initiationInterval="34725" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="input[].data" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:arraySize="25088" xd:dataWidth="32"/>
+  <xd:arg xd:name="input[].last" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:arraySize="25088" xd:dataWidth="1"/>
+  <xd:arg xd:name="output[].data" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:arraySize="384" xd:dataWidth="32"/>
+  <xd:arg xd:name="output[].last" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:arraySize="384" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="34724" xd:worst-case="34724" xd:average-case="34724"/>
+  <xd:resourceEstimates xd:LUT="9700" xd:FF="5533" xd:BRAM="72" xd:DSP="96"/>
+</xd:acceleratorMap>

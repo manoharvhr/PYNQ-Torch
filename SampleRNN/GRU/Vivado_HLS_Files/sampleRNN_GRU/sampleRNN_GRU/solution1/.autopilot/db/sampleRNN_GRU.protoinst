@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"sampleRNN_GRU": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="sampleRNN_GRU" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1553957006"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1553957006"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1553957006"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1553957006"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\sampleRNN_GRU_processing_system7_0_0\sampleRNN_GRU_processing_system7_0_0.xci" Type="IP">
+        <Instance HierarchyPath="processing_system7_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1551952072" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\sampleRNN_GRU_axi_dma_0_0\sampleRNN_GRU_axi_dma_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_dma_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1551961325" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\sampleRNN_GRU_rst_ps7_0_100M_0\sampleRNN_GRU_rst_ps7_0_100M_0.xci" Type="IP">
+        <Instance HierarchyPath="rst_ps7_0_100M"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1551355152" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\sampleRNN_GRU.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="sim\sampleRNN_GRU.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\sampleRNN_GRU_sampleRNN_GRU_0_0\sampleRNN_GRU_sampleRNN_GRU_0_0.xci" Type="IP">
+        <Instance HierarchyPath="sampleRNN_GRU_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1553957006" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\sampleRNN_GRU_axi_smc_1\sampleRNN_GRU_axi_smc_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_smc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1551961325" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\sampleRNN_GRU_ps7_0_axi_periph_1\sampleRNN_GRU_ps7_0_axi_periph_1.xci" Type="IP">
+        <Properties IsEditable="false" IsVisible="false" Timestamp="1551961327" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\sampleRNN_GRU_auto_pc_0\sampleRNN_GRU_auto_pc_0.xci" Type="IP">
+        <Instance HierarchyPath="ps7_0_axi_periph/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1551962933" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="sampleRNN_GRU_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\sampleRNN_GRU.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\sampleRNN_GRU_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth\sampleRNN_GRU.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

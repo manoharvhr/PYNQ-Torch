@@ -1,0 +1,21 @@
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'sampleRNN_GRU_ap_fpext_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 359.066 ; gain = 40.922
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sampleRNN_GRU_ap_fpext_0_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sampleRNN_GRU_ap_fpext_0_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'sampleRNN_GRU_ap_uitofp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sampleRNN_GRU_ap_uitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sampleRNN_GRU_ap_uitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 10 19:48:27 2019...
