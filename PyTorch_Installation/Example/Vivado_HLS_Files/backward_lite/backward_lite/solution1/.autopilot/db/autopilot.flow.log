@@ -1,0 +1,684 @@
+INFO-FLOW: Workspace C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1 opened at Thu Jan 31 22:05:32 +0400 2019
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.126 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.185 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.19 sec.
+Command     ap_source done; 0.191 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_hp.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute     config_chip_info -quiet -speed slow 
+Command   open_solution done; 0.361 sec.
+Execute   set_part xc7z020clg400-1 -tool vivado 
+Execute     add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute       get_default_platform 
+Execute       license_isbetapart xc7z020 
+Command       license_isbetapart done; error code: 1; 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed slow 
+Execute     add_library xilinx/zynq/zynq_fpv6 
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute   create_clock -period 10 -name default 
+Execute   csynth_design 
+Execute     get_config_compile -effort 
+Execute     get_config_compile -enable_clang39 
+Execute     get_config_compile -g 
+Execute     get_config_compile -lm 
+Execute     get_config_compile -ng 
+Execute     get_config_compile -opt_fp 
+Execute     get_config_compile -skip_cdt 
+Execute     get_config_compile -skip_syncheck 
+Execute     get_config_compile -skip_transform 
+Execute     get_config_compile -keep_printf 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute       get_config_schedule -relax_ii_for_timing 
+Execute       get_config_schedule -suppress_dependence_error_break 
+INFO: [HLS 200-10] Analyzing design file 'main.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling main.cpp as C++
+Execute       get_default_platform 
+Execute       is_encrypted main.cpp 
+Execute       get_default_platform 
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2018.2/msys" -hls  -fno-exceptions  -D__llvm__  -E "main.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -fno-exceptions -D__llvm__ -E main.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp
+Command       clang done; 1.197 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2018.2/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp"  -o "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/useless.bc
+Command       clang done; 1.63 sec.
+INFO-FLOW: GCC PP time: 2 seconds per iteration
+Execute       list_core -type functional_unit 
+Execute       tidy_31 xilinx-systemc-detector C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp std=gnu++98 -directive=C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 0.936 sec.
+INFO-FLOW: CDT Preprocessing with tidy-3.1...
+Execute       tidy_31 xilinx-directive2pragma C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp std=gnu++98 -directive=C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/solution1.json 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/solution1.json -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 0.761 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/xilinx-dataflow-lawyer.main.pp.0.cpp.diag.yml C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/xilinx-dataflow-lawyer.main.pp.0.cpp.out.log 2> C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/xilinx-dataflow-lawyer.main.pp.0.cpp.err.log 
+Command       ap_eval done; 0.732 sec.
+Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp std=gnu++98 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 2.376 sec.
+INFO-FLOW: tidy-3.1 time 3 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute       tidy_31 xilinx-ssdm-intrinsics-arguments C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.1.cpp std=gnu++98 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* --checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.1.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 1.825 sec.
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2018.2/msys" -hls  -fno-exceptions  -D__llvm__  -E "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.1.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.2.cpp" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -fno-exceptions -D__llvm__ -E C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.1.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.2.cpp
+Command       clang done; 1.115 sec.
+Execute       get_default_platform 
+INFO-FLOW: Processing labels
+Execute       clang -src C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot" -I "C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.bc" 
+INFO-FLOW: exec C:/Xilinx/Vivado/2018.2/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2018.2/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot -I C:/Xilinx/Vivado/2018.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.bc
+Command       clang done; 1.66 sec.
+INFO-FLOW: Linking Debug ...
+Execute       llvm-ld C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/main.g.bc -hls-opt -except-internalize backward_lite -LC:/Xilinx/Vivado/2018.2/win64/lib -lhlsm -lhlsmc++ -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g 
+Command       llvm-ld done; 1.191 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 103.250 ; gain = 45.906
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 103.250 ; gain = 45.906
+Execute       ::config_rtl 
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+Execute         transform -promote-dbg-pointer C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.pp.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.pp.0.bc -f 
+Execute         llvm-ld C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.pp.0.bc -disable-opt -LC:/Xilinx/Vivado/2018.2/win64/lib -lfloatconversion -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.0 
+Command         llvm-ld done; 0.613 sec.
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top backward_lite -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.0.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'backward_lite' (main.cpp:66).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'backward_lite' (main.cpp:76).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'backward_lite' (main.cpp:77).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'backward_lite' (main.cpp:78).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'backward_lite' (main.cpp:79).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'backward_lite' (main.cpp:80).
+Command         transform done; 0.33 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 120.520 ; gain = 63.176
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.1.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+Command         transform done; 0.197 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.2.prechk.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 129.383 ; gain = 72.039
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.g.1.bc to C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.1.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'in_stream.data' (main.cpp:17).
+Command         transform done; 0.57 sec.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.1.tmp.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:32:28) to (main.cpp:32:22) in function 'backward_lite'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:37:29) to (main.cpp:37:23) in function 'backward_lite'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:42:30) to (main.cpp:42:24) in function 'backward_lite'... converting 10 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:66:9) to (main.cpp:68:7) in function 'backward_lite'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:76:7) to (main.cpp:81:1) in function 'backward_lite'... converting 11 basic blocks.
+Command         transform done; 0.409 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 161.594 ; gain = 104.250
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -bitwidth -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -dead-allocation-elimination -cdfg-build C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.2.bc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Command         transform done; 0.676 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:19 . Memory (MB): peak = 161.898 ; gain = 104.555
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 3.022 sec.
+Command     elaborate done; 17.471 sec.
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'backward_lite' ...
+Execute       ap_set_top_model backward_lite 
+Execute       get_model_list backward_lite -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model backward_lite 
+Execute       get_model_list backward_lite -filter all-wo-channel 
+INFO-FLOW: Model list for configure: backward_lite
+INFO-FLOW: Configuring Module : backward_lite ...
+Execute       set_default_model backward_lite 
+Execute       apply_spec_resource_limit backward_lite 
+INFO-FLOW: Model list for preprocess: backward_lite
+INFO-FLOW: Preprocessing Module: backward_lite ...
+Execute       set_default_model backward_lite 
+Execute       cdfg_preprocess -model backward_lite 
+Execute       rtl_gen_preprocess backward_lite 
+INFO-FLOW: Model list for synthesis: backward_lite
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'backward_lite' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model backward_lite 
+Execute       schedule -model backward_lite 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 4.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 4.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 3'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 4.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 4'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 54.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.441 sec.
+INFO: [HLS 200-111]  Elapsed time: 19.165 seconds; current allocated memory: 112.516 MB.
+Execute       report -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.verbose.sched.rpt -verbose -f 
+INFO: [HLS 200-434] Only 4 loops out of a total 6 loops have been pipelined in this design.
+Command       report done; 0.259 sec.
+Execute       db_write -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.sched.adb -f 
+Command       db_write done; 0.109 sec.
+INFO-FLOW: Finish scheduling backward_lite.
+Execute       set_default_model backward_lite 
+Execute       bind -model backward_lite 
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=backward_lite
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.236 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.673 seconds; current allocated memory: 114.265 MB.
+Execute       report -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.verbose.bind.rpt -verbose -f 
+Command       report done; 0.538 sec.
+Execute       db_write -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.bind.adb -f 
+Command       db_write done; 0.173 sec.
+INFO-FLOW: Finish binding backward_lite.
+Execute       get_model_list backward_lite -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess backward_lite 
+INFO-FLOW: Model list for RTL generation: backward_lite
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'backward_lite' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model backward_lite -vendor xilinx -mg_file C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/in_stream_data' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/in_stream_last' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/bias' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/w1' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/w2' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/w3' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/w4' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'backward_lite/w5' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'backward_lite' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Bundling port 'bias', 'w1', 'w2', 'w3', 'w4' and 'w5' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'backward_lite_smooth_grad_V' to 'backward_lite_smobkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'backward_lite_batch_x_mat_V' to 'backward_lite_batcud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'backward_lite_nn_out_mat_V' to 'backward_lite_nn_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'backward_lite_batch_y_mat_V' to 'backward_lite_bateOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'backward_lite_uitofp_32ns_32_6_1' to 'backward_lite_uitfYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'backward_lite_fpext_32ns_64_1_1' to 'backward_lite_fpeg8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'backward_lite_sdiv_48ns_32s_48_52_1' to 'backward_lite_sdihbi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'backward_lite_fpeg8j': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'backward_lite_sdihbi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'backward_lite_uitfYi': 5 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'backward_lite'.
+Command       create_rtl_model done; 0.495 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.286 seconds; current allocated memory: 118.174 MB.
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute       gen_rtl backward_lite -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/syn/systemc/backward_lite -synmodules backward_lite 
+Execute       gen_rtl backward_lite -istop -style xilinx -f -lang vhdl -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/syn/vhdl/backward_lite 
+Command       gen_rtl done; 0.248 sec.
+Execute       gen_rtl backward_lite -istop -style xilinx -f -lang vlog -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/syn/verilog/backward_lite 
+Command       gen_rtl done; 0.127 sec.
+Execute       export_constraint_db -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.constraint.tcl -f -tool general 
+Execute       report -model backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.design.xml -verbose -f -dv 
+Command       report done; 0.206 sec.
+Execute       report -model backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.sdaccel.xml -verbose -f -sdaccel 
+Command       report done; 0.329 sec.
+Execute       gen_tb_info backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite -p C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db 
+Execute       report -model backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/syn/report/backward_lite_csynth.rpt -f 
+Command       report done; 0.117 sec.
+Execute       report -model backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/syn/report/backward_lite_csynth.xml -f -x 
+Command       report done; 0.105 sec.
+Execute       report -model backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.verbose.rpt -verbose -f 
+Command       report done; 0.658 sec.
+Execute       db_write -model backward_lite -o C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.adb -f 
+Command       db_write done; 0.465 sec.
+Execute       sc_get_clocks backward_lite 
+Execute       sc_get_portdomain backward_lite 
+INFO-FLOW: Model list for RTL component generation: backward_lite
+INFO-FLOW: Handling components in module [backward_lite] ... 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+INFO-FLOW: Found component backward_lite_uitfYi.
+INFO-FLOW: Append model backward_lite_uitfYi
+INFO-FLOW: Found component backward_lite_fpeg8j.
+INFO-FLOW: Append model backward_lite_fpeg8j
+INFO-FLOW: Found component backward_lite_sdihbi.
+INFO-FLOW: Append model backward_lite_sdihbi
+INFO-FLOW: Found component backward_lite_smobkb.
+INFO-FLOW: Append model backward_lite_smobkb
+INFO-FLOW: Found component backward_lite_batcud.
+INFO-FLOW: Append model backward_lite_batcud
+INFO-FLOW: Found component backward_lite_nn_dEe.
+INFO-FLOW: Append model backward_lite_nn_dEe
+INFO-FLOW: Found component backward_lite_AXILiteS_s_axi.
+INFO-FLOW: Append model backward_lite_AXILiteS_s_axi
+INFO-FLOW: Append model backward_lite
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: backward_lite_uitfYi backward_lite_fpeg8j backward_lite_sdihbi backward_lite_smobkb backward_lite_batcud backward_lite_nn_dEe backward_lite_AXILiteS_s_axi backward_lite
+INFO-FLOW: To file: write model backward_lite_uitfYi
+INFO-FLOW: To file: write model backward_lite_fpeg8j
+INFO-FLOW: To file: write model backward_lite_sdihbi
+INFO-FLOW: To file: write model backward_lite_smobkb
+INFO-FLOW: To file: write model backward_lite_batcud
+INFO-FLOW: To file: write model backward_lite_nn_dEe
+INFO-FLOW: To file: write model backward_lite_AXILiteS_s_axi
+INFO-FLOW: To file: write model backward_lite
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+Execute       get_config_sdx -target 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source done; 0.101 sec.
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source done; 0.154 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.157 sec.
+Command       ap_source done; 0.158 sec.
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+INFO: [RTMG 210-282] Generating pipelined core: 'backward_lite_sdihbi_div'
+INFO: [RTMG 210-278] Implementing memory 'backward_lite_smobkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'backward_lite_batcud_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'backward_lite_nn_dEe_ram (RAM)' using block RAMs.
+Execute         source ./AXILiteS.slave.tcl 
+Execute         is_m_axi_addr64 
+Command       ap_source done; 0.493 sec.
+Execute       get_config_sdx -target 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source done; 0.131 sec.
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source done; 0.201 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source done; 0.206 sec.
+Command       ap_source done; 0.206 sec.
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.constraint.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.constraint.tcl 
+Execute       sc_get_clocks backward_lite 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/impl/misc/backward_lite_ap_fpext_0_no_dsp_32_ip.tcl 
+Execute       source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/impl/misc/backward_lite_ap_uitofp_4_no_dsp_32_ip.tcl 
+Execute       get_config_sdx -target 
+Execute       get_config_sdx -profile 
+Execute       ::config_rtl 
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:00:26 . Memory (MB): peak = 180.488 ; gain = 123.145
+INFO: [SYSC 207-301] Generating SystemC RTL for backward_lite.
+INFO: [VHDL 208-304] Generating VHDL RTL for backward_lite.
+INFO: [VLOG 209-307] Generating Verilog RTL for backward_lite.
+Command     autosyn done; 7.852 sec.
+Command   csynth_design done; 25.331 sec.
+Command ap_source done; 25.792 sec.
+Execute cleanup_all 
+INFO-FLOW: Workspace C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1 opened at Thu Jan 31 22:13:53 +0400 2019
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.lib 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.11 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.163 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.166 sec.
+Command     ap_source done; 0.166 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_hp.lib 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/target_info.tcl 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.hlp 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.hlp 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute     config_chip_info -quiet -speed slow 
+Command   open_solution done; 0.327 sec.
+Execute   export_design -rtl vhdl -format ip_catalog 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.106 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.155 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.158 sec.
+Command     ap_source done; 0.158 sec.
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     get_config_sdx -target 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.106 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.156 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.159 sec.
+Command     ap_source done; 0.159 sec.
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.compgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.constraint.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.rtl_wrap.cfg.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.constraint.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.constraint.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/backward_lite.tbgen.tcl 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Users/manoh/Desktop/ECTE451-458/backward_lite/backward_lite/solution1/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/fsl.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/saxilite.gen 
+Execute             source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/maxi.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/util.gen 
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.126 sec.
+Execute           source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/ip/xfir.gen 
+Command         ap_source done; 0.183 sec.
+Execute         source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.187 sec.
+Command     ap_source done; 0.188 sec.
+Execute     source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source C:/Xilinx/Vivado/2018.2/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command   export_design done; 19.435 sec.
+Command ap_source done; 19.768 sec.
+Execute cleanup_all 

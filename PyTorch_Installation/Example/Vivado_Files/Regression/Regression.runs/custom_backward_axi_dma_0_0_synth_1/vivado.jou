@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jan 29 13:28:14 2019
+# Process ID: 12060
+# Current directory: C:/ECTE433_LabFiles/backward_lite/backward_lite.runs/custom_backward_axi_dma_0_0_synth_1
+# Command line: vivado.exe -log custom_backward_axi_dma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source custom_backward_axi_dma_0_0.tcl
+# Log file: C:/ECTE433_LabFiles/backward_lite/backward_lite.runs/custom_backward_axi_dma_0_0_synth_1/custom_backward_axi_dma_0_0.vds
+# Journal file: C:/ECTE433_LabFiles/backward_lite/backward_lite.runs/custom_backward_axi_dma_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source custom_backward_axi_dma_0_0.tcl -notrace

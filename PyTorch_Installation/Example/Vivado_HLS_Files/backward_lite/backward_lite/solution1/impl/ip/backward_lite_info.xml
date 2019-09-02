@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <core name="" type="" target="">
+    <kernel name="backward_lite" language="c" vlnv="xilinx.com:hls:backward_lite:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="false">
+      <port name="S_AXI_AXILITES" mode="slave" range="0x1000" dataWidth="32" portType="addressable" base="0x00000000"/>
+      <arg name="bias" addressQualifier="0" id="0" port="S_AXI_AXILITES" size="0x4" offset="0x10" hostOffset="0x0" hostSize="0x4" type="float"/>
+      <arg name="w1" addressQualifier="0" id="1" port="S_AXI_AXILITES" size="0x4" offset="0x18" hostOffset="0x0" hostSize="0x4" type="float"/>
+      <arg name="w2" addressQualifier="0" id="2" port="S_AXI_AXILITES" size="0x4" offset="0x20" hostOffset="0x0" hostSize="0x4" type="float"/>
+      <arg name="w3" addressQualifier="0" id="3" port="S_AXI_AXILITES" size="0x4" offset="0x28" hostOffset="0x0" hostSize="0x4" type="float"/>
+      <arg name="w4" addressQualifier="0" id="4" port="S_AXI_AXILITES" size="0x4" offset="0x30" hostOffset="0x0" hostSize="0x4" type="float"/>
+      <arg name="w5" addressQualifier="0" id="5" port="S_AXI_AXILITES" size="0x4" offset="0x38" hostOffset="0x0" hostSize="0x4" type="float"/>
+      <compileWorkGroupSize x="1" y="1" z="1"/>
+    </kernel>
+  </core>
+</project>

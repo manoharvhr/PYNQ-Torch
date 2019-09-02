@@ -1,0 +1,954 @@
+
+*** Running vivado
+    with args -log custom_backward_equation_matrix_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source custom_backward_equation_matrix_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source custom_backward_equation_matrix_0_0.tcl -notrace
+Command: synth_design -top custom_backward_equation_matrix_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11952 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 464.434 ; gain = 95.340
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'custom_backward_equation_matrix_0_0' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ip/custom_backward_equation_matrix_0_0/synth/custom_backward_equation_matrix_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'equation_matrix' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:12' bound to instance 'U0' of component 'equation_matrix' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ip/custom_backward_equation_matrix_0_0/synth/custom_backward_equation_matrix_0_0.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:151]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:154]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:184]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:193]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:202]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:211]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:268]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:318]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:376]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:382]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:387]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:393]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:399]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:405]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:411]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:551]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 160 - type: integer 
+	Parameter AddressWidth bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_dbkb' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:106' bound to instance 'dataOut_V_U' of component 'equation_matrix_dbkb' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:651]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_dbkb' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:126]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 160 - type: integer 
+	Parameter AddressWidth bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_dbkb_ram' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:13' bound to instance 'equation_matrix_dbkb_ram_U' of component 'equation_matrix_dbkb_ram' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_dbkb_ram' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:36]
+	Parameter MEM_TYPE bound to: block - type: string 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 8 - type: integer 
+	Parameter MEM_SIZE bound to: 160 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_dbkb_ram' (1#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_dbkb' (2#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dbkb.vhd:126]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 32 - type: integer 
+	Parameter AddressWidth bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_dcud' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:76' bound to instance 'dataIn_V_U' of component 'equation_matrix_dcud' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:670]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_dcud' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:91]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 32 - type: integer 
+	Parameter AddressWidth bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_dcud_ram' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:13' bound to instance 'equation_matrix_dcud_ram_U' of component 'equation_matrix_dcud_ram' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_dcud_ram' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:31]
+	Parameter MEM_TYPE bound to: block - type: string 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 5 - type: integer 
+	Parameter MEM_SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_dcud_ram' (3#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_dcud' (4#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_dcud.vhd:91]
+	Parameter DataWidth bound to: 1 - type: integer 
+	Parameter AddressRange bound to: 160 - type: integer 
+	Parameter AddressWidth bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_ddEe' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:76' bound to instance 'dataOut_last_U' of component 'equation_matrix_ddEe' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:684]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_ddEe' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:91]
+	Parameter DataWidth bound to: 1 - type: integer 
+	Parameter AddressRange bound to: 160 - type: integer 
+	Parameter AddressWidth bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_ddEe_ram' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:13' bound to instance 'equation_matrix_ddEe_ram_U' of component 'equation_matrix_ddEe_ram' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_ddEe_ram' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:31]
+	Parameter MEM_TYPE bound to: distributed - type: string 
+	Parameter DWIDTH bound to: 1 - type: integer 
+	Parameter AWIDTH bound to: 8 - type: integer 
+	Parameter MEM_SIZE bound to: 160 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_ddEe_ram' (5#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_ddEe' (6#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ddEe.vhd:91]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 6 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_ueOg' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ueOg.vhd:11' bound to instance 'equation_matrix_ueOg_U1' of component 'equation_matrix_ueOg' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:698]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_ueOg' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ueOg.vhd:27]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 6 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_ap_uitofp_4_no_dsp_32' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_uitofp_4_no_dsp_32.vhd:59' bound to instance 'equation_matrix_ap_uitofp_4_no_dsp_32_u' of component 'equation_matrix_ap_uitofp_4_no_dsp_32' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ueOg.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_ap_uitofp_4_no_dsp_32' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_uitofp_4_no_dsp_32.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: virtex7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_C_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 4 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/c4f7/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_uitofp_4_no_dsp_32.vhd:198]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_ap_uitofp_4_no_dsp_32' (21#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_uitofp_4_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_ueOg' (22#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ueOg.vhd:27]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_ffYi' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ffYi.vhd:11' bound to instance 'equation_matrix_ffYi_U2' of component 'equation_matrix_ffYi' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:711]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_ffYi' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ffYi.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'equation_matrix_ap_fpext_0_no_dsp_32' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_fpext_0_no_dsp_32.vhd:59' bound to instance 'equation_matrix_ap_fpext_0_no_dsp_32_u' of component 'equation_matrix_ap_fpext_0_no_dsp_32' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ffYi.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'equation_matrix_ap_fpext_0_no_dsp_32' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_fpext_0_no_dsp_32.vhd:68]
+	Parameter C_XDEVICEFAMILY bound to: virtex7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 0 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/c4f7/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_fpext_0_no_dsp_32.vhd:192]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_ap_fpext_0_no_dsp_32' (27#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/ip/equation_matrix_ap_fpext_0_no_dsp_32.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix_ffYi' (28#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix_ffYi.vhd:24]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_28_reg_1386_pp2_iter2_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1634]
+INFO: [Synth 8-256] done synthesizing module 'equation_matrix' (29#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'custom_backward_equation_matrix_0_0' (30#1) [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ip/custom_backward_equation_matrix_0_0/synth/custom_backward_equation_matrix_0_0.vhd:71]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized50 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port CLK
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized33 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized48 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized9 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized5 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized31 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized46 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design special_detect has unconnected port A[31]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized1 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized44 has unconnected port SINIT
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port m_axis_result_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port m_axis_result_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port aclken
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port aresetn
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_a_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_a_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tvalid
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[31]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[30]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[29]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[28]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[27]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[26]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[25]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[24]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[23]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[22]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[21]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[20]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[19]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[18]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[17]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[16]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[15]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[14]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[13]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[12]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[11]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[10]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[9]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[8]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[7]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[6]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[5]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[4]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[3]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[2]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[1]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tdata[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_b_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tvalid
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[31]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[30]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[29]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[28]
+WARNING: [Synth 8-3331] design floating_point_v7_1_6_viv__parameterized1 has unconnected port s_axis_c_tdata[27]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 585.207 ; gain = 216.113
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 585.207 ; gain = 216.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 585.207 ; gain = 216.113
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 277 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ip/custom_backward_equation_matrix_0_0/constraints/equation_matrix_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ip/custom_backward_equation_matrix_0_0/constraints/equation_matrix_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.runs/custom_backward_equation_matrix_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.runs/custom_backward_equation_matrix_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  FDE => FDRE: 16 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 908.199 ; gain = 1.875
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 908.199 ; gain = 539.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 908.199 ; gain = 539.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.runs/custom_backward_equation_matrix_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 908.199 ; gain = 539.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp32_V_reg_1555_reg' and it is trimmed from '32' to '23' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1823]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_reg_330_pp0_iter2_reg_reg' and it is trimmed from '6' to '5' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1605]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_reg_330_pp0_iter1_reg_reg' and it is trimmed from '6' to '5' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1596]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_28_reg_1386_pp2_iter1_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1625]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_28_reg_1386_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1625]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_19_reg_1367_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1840]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "exitcond1_fu_445_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond2_fu_730_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond3_fu_773_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond4_fu_842_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond5_fu_926_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond6_fu_1010_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten_fu_1094_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "exitcond8_fu_1112_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "tmp_9_fu_492_p2" won't be mapped to RAM because address size (63) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "input_data_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_6_fu_557_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "icmp_fu_577_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "output_data_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "tmp_32_fu_1189_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_35_fu_1243_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element tmp_16_reg_1396_reg was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1832]
+INFO: [Synth 8-5546] ROM "exitcond1_fu_445_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond2_fu_730_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond3_fu_773_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond4_fu_842_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond5_fu_926_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond6_fu_1010_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_flatten_fu_1094_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "exitcond8_fu_1112_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "tmp_9_fu_492_p2" won't be mapped to RAM because address size (63) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "input_data_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_6_fu_557_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "icmp_fu_577_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "output_data_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "tmp_32_fu_1189_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_35_fu_1243_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_data_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_data_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_last_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "input_last_0_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_data_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_data_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "output_last_1_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num_zeros_fu_1211_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-3971] The signal ram_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 908.199 ; gain = 539.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized3) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_DEL' (delay__parameterized16) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized17) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized17) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ffYi_U2/equation_matrix_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ffYi_U2/equation_matrix_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ffYi_U2/equation_matrix_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ffYi_U2/equation_matrix_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/equation_matrix_ffYi_U2/equation_matrix_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized3) to 'U0/equation_matrix_ffYi_U2/equation_matrix_ap_fpext_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "FLT_TO_FLT_OP.SPD.OP/EXP/COND_DET/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FLT_TO_FLT_OP.SPD.OP/EXP/COND_DET/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_43_reg_1410_pp3_iter2_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1653]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_43_reg_1410_pp3_iter1_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1644]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_47_reg_1439_pp4_iter2_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1672]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_47_reg_1439_pp4_iter1_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1663]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_43_reg_1410_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1644]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_47_reg_1439_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1663]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_51_reg_1468_pp5_iter2_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1691]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_51_reg_1468_pp5_iter1_reg_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1682]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_51_reg_1468_reg' and it is trimmed from '9' to '8' bits. [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:1682]
+INFO: [Synth 8-5546] ROM "exitcond_flatten_fu_1094_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_32_fu_1189_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_35_fu_1243_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_9_fu_492_p2" won't be mapped to RAM because address size (63) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tmp_6_fu_557_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "icmp_fu_577_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2666]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2669]
+WARNING: [Synth 8-6014] Unused sequential element p_1_out was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2666]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2666]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2666]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2666]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2669]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2669]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2669]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ipshared/ba70/hdl/vhdl/equation_matrix.vhd:2669]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+INFO: [Synth 8-3971] The signal dataOut_V_U/equation_matrix_dbkb_ram_U/ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[16]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[17]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[18]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[19]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[20]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[21]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[22]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[23]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[24]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[25]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[26]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[27]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[28]' (FDE) to 'U0/tmp_15_reg_1313_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[0]' (FDE) to 'U0/tmp_15_reg_1313_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[1]' (FDE) to 'U0/tmp_15_reg_1313_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[2]' (FDE) to 'U0/tmp_15_reg_1313_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[3]' (FDE) to 'U0/tmp_15_reg_1313_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[4]' (FDE) to 'U0/tmp_15_reg_1313_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[5]' (FDE) to 'U0/tmp_15_reg_1313_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[6]' (FDE) to 'U0/tmp_15_reg_1313_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[7]' (FDE) to 'U0/tmp_15_reg_1313_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[8]' (FDE) to 'U0/tmp_15_reg_1313_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[9]' (FDE) to 'U0/tmp_15_reg_1313_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[10]' (FDE) to 'U0/tmp_15_reg_1313_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[11]' (FDE) to 'U0/tmp_15_reg_1313_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[12]' (FDE) to 'U0/tmp_15_reg_1313_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[13]' (FDE) to 'U0/tmp_15_reg_1313_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_15_reg_1313_reg[14]' (FDE) to 'U0/tmp_15_reg_1313_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_15_reg_1313_reg[15] )
+INFO: [Synth 8-3886] merging instance 'U0/exp_tmp_V_reg_1308_reg[9]' (FDE) to 'U0/exp_tmp_V_reg_1308_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/exp_tmp_V_reg_1308_reg[8]' (FDE) to 'U0/exp_tmp_V_reg_1308_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[16]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[24]' (FDE) to 'U0/man_V_2_reg_1324_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[20]' (FDE) to 'U0/man_V_2_reg_1324_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[28]' (FDE) to 'U0/man_V_2_reg_1324_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[18]' (FDE) to 'U0/man_V_2_reg_1324_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[26]' (FDE) to 'U0/man_V_2_reg_1324_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[22]' (FDE) to 'U0/man_V_2_reg_1324_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[30]' (FDE) to 'U0/man_V_2_reg_1324_reg[30]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[17]' (FDE) to 'U0/man_V_2_reg_1324_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[25]' (FDE) to 'U0/man_V_2_reg_1324_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[21]' (FDE) to 'U0/man_V_2_reg_1324_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[29]' (FDE) to 'U0/man_V_2_reg_1324_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[19]' (FDE) to 'U0/man_V_2_reg_1324_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[27]' (FDE) to 'U0/man_V_2_reg_1324_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[23]' (FDE) to 'U0/man_V_2_reg_1324_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[31]' (FDE) to 'U0/man_V_2_reg_1324_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[0]' (FDE) to 'U0/tmp_31_reg_1340_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[1]' (FDE) to 'U0/tmp_31_reg_1340_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[2]' (FDE) to 'U0/tmp_31_reg_1340_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[3]' (FDE) to 'U0/tmp_31_reg_1340_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[4]' (FDE) to 'U0/tmp_31_reg_1340_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[5]' (FDE) to 'U0/tmp_31_reg_1340_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[6]' (FDE) to 'U0/tmp_31_reg_1340_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[7]' (FDE) to 'U0/tmp_31_reg_1340_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[8]' (FDE) to 'U0/tmp_31_reg_1340_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[9]' (FDE) to 'U0/tmp_31_reg_1340_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[10]' (FDE) to 'U0/tmp_31_reg_1340_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[11]' (FDE) to 'U0/tmp_31_reg_1340_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[12]' (FDE) to 'U0/tmp_31_reg_1340_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[13]' (FDE) to 'U0/tmp_31_reg_1340_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[14]' (FDE) to 'U0/tmp_31_reg_1340_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[15]' (FDE) to 'U0/tmp_31_reg_1340_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/NEED_Z_DET.Z_DET/ENCODE[1].DIST_OVER_DEL/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\equation_matrix_ueOg_U1/equation_matrix_ap_uitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/NEED_Z_DET.Z_DET/ENCODE[1].DIST_OVER_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[8]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[4]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[12]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[2]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[10]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[6]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[14]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[1]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[9]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[5]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[13]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[3]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[11]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_31_reg_1340_reg[7]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[22]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[26]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[18]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[28]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[20]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[24]' (FDE) to 'U0/man_V_2_reg_1324_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[16]' (FDE) to 'U0/man_V_2_reg_1324_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[21]' (FDE) to 'U0/man_V_2_reg_1324_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[25]' (FDE) to 'U0/man_V_2_reg_1324_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[17]' (FDE) to 'U0/man_V_2_reg_1324_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[27]' (FDE) to 'U0/man_V_2_reg_1324_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[19]' (FDE) to 'U0/man_V_2_reg_1324_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/man_V_2_reg_1324_reg[23]' (FDE) to 'U0/tmp_31_reg_1340_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_31_reg_1340_reg[15] )
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[63]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[62]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[61]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[60]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[59]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[58]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[57]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[56]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[55]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[54]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[53]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[52]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[51]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[50]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[49]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[48]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[47]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[46]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[45]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[44]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[43]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[42]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[41]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[40]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[39]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[38]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[37]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[36]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[35]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[34]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[33]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[32]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[31]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[30]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[29]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[2].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.sign_op_reg) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NEED_Z_DET.Z_DET/ENCODE[1].DIST_OVER_DEL/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+WARNING: [Synth 8-3332] Sequential element (equation_matrix_ueOg_U1/dout_r_reg[31]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[16]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[15]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[14]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[13]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[12]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[11]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[10]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[9]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[8]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[7]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[6]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[5]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[4]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[3]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[2]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[1]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (reg_436_reg[0]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[47]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[46]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[45]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[44]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[43]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[42]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[41]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[40]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[39]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[38]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[37]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[36]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[35]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[34]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[33]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[32]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[31]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[30]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[29]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[28]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[27]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[26]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[25]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[24]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[23]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[22]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[21]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[20]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[19]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[18]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[17]) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[47]__0) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[46]__0) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[45]__0) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[44]__0) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[43]__0) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[42]__0) is unused and will be removed from module equation_matrix.
+WARNING: [Synth 8-3332] Sequential element (p_1_out[41]__0) is unused and will be removed from module equation_matrix.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_31_reg_1340_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 908.199 ; gain = 539.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/i_8_2/dataOut_V_U/equation_matrix_dbkb_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_8_2/dataOut_V_U/equation_matrix_dbkb_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_8_4/dataIn_V_U/equation_matrix_dcud_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_8_4/dataIn_V_U/equation_matrix_dcud_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:01:01 . Memory (MB): peak = 934.215 ; gain = 565.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 938.785 ; gain = 569.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/dataOut_V_U/equation_matrix_dbkb_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/dataOut_V_U/equation_matrix_dbkb_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/dataIn_V_U/equation_matrix_dcud_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/dataIn_V_U/equation_matrix_dcud_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:01:03 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:57 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    47|
+|2     |DSP48E1   |     6|
+|3     |DSP48E1_1 |     2|
+|4     |LUT1      |   107|
+|5     |LUT2      |   125|
+|6     |LUT3      |   306|
+|7     |LUT4      |   119|
+|8     |LUT5      |   255|
+|9     |LUT6      |   428|
+|10    |MUXCY     |   173|
+|11    |MUXF7     |     7|
+|12    |RAM128X1S |     1|
+|13    |RAM32X1S  |     1|
+|14    |RAMB18E1  |     1|
+|15    |RAMB36E1  |     1|
+|16    |SRL16E    |    11|
+|17    |XORCY     |    88|
+|18    |FDE       |    16|
+|19    |FDRE      |  1024|
+|20    |FDSE      |     1|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 364 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:52 . Memory (MB): peak = 972.219 ; gain = 280.133
+Synthesis Optimization Complete : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 972.219 ; gain = 603.125
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 343 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 62 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 44 instances
+  FDE => FDRE: 16 instances
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E, RAMS64E): 1 instances
+  RAM32X1S => RAM32X1S (RAMS32): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+323 Infos, 184 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 972.219 ; gain = 614.598
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.runs/custom_backward_equation_matrix_0_0_synth_1/custom_backward_equation_matrix_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.srcs/sources_1/bd/custom_backward/ip/custom_backward_equation_matrix_0_0/custom_backward_equation_matrix_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 61 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/ECTE433_LabFiles/backward_lite_features/backward_lite_features.runs/custom_backward_equation_matrix_0_0_synth_1/custom_backward_equation_matrix_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file custom_backward_equation_matrix_0_0_utilization_synth.rpt -pb custom_backward_equation_matrix_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 972.219 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 29 21:56:11 2019...

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="backward_lite" xd:componentRef="backward_lite" xd:initiationInterval="597" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="in_stream[].data" xd:originalName="in_stream" xd:direction="in" xd:interfaceRef="in_stream" xd:busTypeRef="axis" xd:arraySize="224" xd:dataWidth="32"/>
+  <xd:arg xd:name="in_stream[].last" xd:originalName="in_stream" xd:direction="in" xd:interfaceRef="in_stream" xd:busTypeRef="axis" xd:arraySize="224" xd:dataWidth="1"/>
+  <xd:arg xd:name="bias" xd:originalName="bias" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x10" xd:statusOffset="0x14" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="w1" xd:originalName="w1" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x18" xd:statusOffset="0x1C" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="w2" xd:originalName="w2" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x20" xd:statusOffset="0x24" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="w3" xd:originalName="w3" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x28" xd:statusOffset="0x2C" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="w4" xd:originalName="w4" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x30" xd:statusOffset="0x34" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="w5" xd:originalName="w5" xd:direction="out" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x38" xd:statusOffset="0x3C" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="596" xd:worst-case="596" xd:average-case="596"/>
+  <xd:resourceEstimates xd:LUT="12378" xd:FF="9857" xd:BRAM="6" xd:DSP="15"/>
+</xd:acceleratorMap>

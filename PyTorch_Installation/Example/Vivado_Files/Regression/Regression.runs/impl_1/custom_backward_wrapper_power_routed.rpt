@@ -1,0 +1,794 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date             : Tue Jan 29 22:02:08 2019
+| Host             : ManoharVohra-PC running 64-bit major release  (build 9200)
+| Command          : report_power -file custom_backward_wrapper_power_routed.rpt -pb custom_backward_wrapper_power_summary_routed.pb -rpx custom_backward_wrapper_power_routed.rpx
+| Design           : custom_backward_wrapper
+| Device           : xc7z020clg400-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 1.589        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 1.449        |
+| Device Static (W)        | 0.140        |
+| Effective TJA (C/W)      | 11.5         |
+| Max Ambient (C)          | 66.7         |
+| Junction Temperature (C) | 43.3         |
+| Confidence Level         | Medium       |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.050 |        3 |       --- |             --- |
+| Slice Logic              |     0.047 |    29221 |       --- |             --- |
+|   LUT as Logic           |     0.040 |    11592 |     53200 |           21.79 |
+|   CARRY4                 |     0.004 |     1084 |     13300 |            8.15 |
+|   Register               |     0.003 |    12541 |    106400 |           11.79 |
+|   LUT as Shift Register  |    <0.001 |      335 |     17400 |            1.93 |
+|   F7/F8 Muxes            |    <0.001 |       42 |     53200 |            0.08 |
+|   Others                 |     0.000 |      972 |       --- |             --- |
+|   LUT as Distributed RAM |     0.000 |       21 |     17400 |            0.12 |
+| Signals                  |     0.057 |    22949 |       --- |             --- |
+| Block RAM                |     0.016 |      7.5 |       140 |            5.36 |
+| DSPs                     |     0.023 |       24 |       220 |           10.91 |
+| PS7                      |     1.256 |        1 |       --- |             --- |
+| Static Power             |     0.140 |          |           |                 |
+| Total                    |     1.589 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.206 |       0.192 |      0.014 |
+| Vccaux    |       1.800 |     0.015 |       0.000 |      0.015 |
+| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.002 |       0.001 |      0.001 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccpint   |       1.000 |     0.676 |       0.647 |      0.029 |
+| Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 |
+| Vccpll    |       1.800 |     0.017 |       0.014 |      0.003 |
+| Vcco_ddr  |       1.500 |     0.354 |       0.352 |      0.002 |
+| Vcco_mio0 |       3.300 |     0.003 |       0.002 |      0.001 |
+| Vcco_mio1 |       1.800 |     0.003 |       0.002 |      0.001 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                        | Action                                                                                                     |
++-----------------------------+------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                               |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks         |                                                                                                            |
+| I/O nodes activity          | High       | User specified more than 95% of inputs         |                                                                                                            |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                   |                                                                                                            |
+|                             |            |                                                |                                                                                                            |
+| Overall confidence level    | Medium     |                                                |                                                                                                            |
++-----------------------------+------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+------------------------+
+| Ambient Temp (C)      | 25.0                   |
+| ThetaJA (C/W)         | 11.5                   |
+| Airflow (LFM)         | 250                    |
+| Heat Sink             | none                   |
+| ThetaSA (C/W)         | 0.0                    |
+| Board Selection       | medium (10"x10")       |
+| # of Board Layers     | 8to11 (8 to 11 Layers) |
+| Board Temperature (C) | 25.0                   |
++-----------------------+------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++------------+--------------------------------------------------------------------+-----------------+
+| Clock      | Domain                                                             | Constraint (ns) |
++------------+--------------------------------------------------------------------+-----------------+
+| clk_fpga_0 | custom_backward_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0] |            10.0 |
++------------+--------------------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-----------------------------------------------------------------------------------+-----------+
+| Name                                                                              | Power (W) |
++-----------------------------------------------------------------------------------+-----------+
+| custom_backward_wrapper                                                           |     1.449 |
+|   custom_backward_i                                                               |     1.449 |
+|     axi_dma_0                                                                     |     0.003 |
+|       U0                                                                          |     0.003 |
+|         INCLUDE_MM2S_SOF_EOF_GENERATOR.I_MM2S_DMA_MNGR                            |    <0.001 |
+|           GEN_MM2S_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_MM2S_SMPL_SM                 |    <0.001 |
+|           GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS                                      |    <0.001 |
+|           GEN_MM2S_DMA_CONTROL.I_MM2S_STS_MNGR                                    |    <0.001 |
+|         I_AXI_DMA_REG_MODULE                                                      |    <0.001 |
+|           GEN_AXI_LITE_IF.AXI_LITE_IF_I                                           |    <0.001 |
+|           GEN_MM2S_REGISTERS.I_MM2S_DMA_REGISTER                                  |    <0.001 |
+|         I_PRMRY_DATAMOVER                                                         |     0.002 |
+|           GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER                                       |     0.002 |
+|             ENABLE_AXIS_SKID.I_MM2S_SKID_BUF                                      |    <0.001 |
+|             GEN_INCLUDE_MM2S_SF.I_RD_SF                                           |    <0.001 |
+|               I_DATA_FIFO                                                         |    <0.001 |
+|                 BLK_MEM.I_SYNC_FIFOGEN_FIFO                                       |    <0.001 |
+|                   xpm_fifo_instance.xpm_fifo_sync_inst                            |    <0.001 |
+|                     xpm_fifo_base_inst                                            |    <0.001 |
+|                       gen_fwft.rdpp1_inst                                         |    <0.001 |
+|                       gen_sdpram.xpm_memory_base_inst                             |    <0.001 |
+|                       rdp_inst                                                    |    <0.001 |
+|                       rdpp1_inst                                                  |    <0.001 |
+|                       rst_d1_inst                                                 |    <0.001 |
+|                       wrp_inst                                                    |    <0.001 |
+|                       wrpp1_inst                                                  |    <0.001 |
+|                       xpm_fifo_rst_inst                                           |    <0.001 |
+|               OMIT_DRE_CNTL.I_DRE_CNTL_FIFO                                       |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|             I_ADDR_CNTL                                                           |    <0.001 |
+|               GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO                                      |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_CMD_STATUS                                                          |    <0.001 |
+|               GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO                                  |    <0.001 |
+|               I_CMD_FIFO                                                          |    <0.001 |
+|             I_MSTR_PCC                                                            |    <0.001 |
+|               I_STRT_STRB_GEN                                                     |    <0.001 |
+|             I_RD_DATA_CNTL                                                        |    <0.001 |
+|               GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO                                 |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_RD_STATUS_CNTLR                                                     |    <0.001 |
+|             I_RESET                                                               |    <0.001 |
+|         I_RST_MODULE                                                              |    <0.001 |
+|           GEN_RESET_FOR_MM2S.RESET_I                                              |    <0.001 |
+|           REG_HRD_RST                                                             |    <0.001 |
+|           REG_HRD_RST_OUT                                                         |    <0.001 |
+|     axi_dma_1                                                                     |     0.010 |
+|       U0                                                                          |     0.010 |
+|         INCLUDE_MM2S_SOF_EOF_GENERATOR.I_MM2S_DMA_MNGR                            |    <0.001 |
+|           GEN_MM2S_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_MM2S_SMPL_SM                 |    <0.001 |
+|           GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS                                      |    <0.001 |
+|           GEN_MM2S_DMA_CONTROL.I_MM2S_STS_MNGR                                    |    <0.001 |
+|         INCLUDE_S2MM_SOF_EOF_GENERATOR.I_S2MM_DMA_MNGR                            |    <0.001 |
+|           GEN_S2MM_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_S2MM_SMPL_SM                 |    <0.001 |
+|           GEN_S2MM_DMA_CONTROL.I_S2MM_CMDSTS                                      |    <0.001 |
+|           GEN_S2MM_DMA_CONTROL.I_S2MM_STS_MNGR                                    |    <0.001 |
+|         I_AXI_DMA_REG_MODULE                                                      |     0.001 |
+|           GEN_AXI_LITE_IF.AXI_LITE_IF_I                                           |    <0.001 |
+|           GEN_MM2S_REGISTERS.I_MM2S_DMA_REGISTER                                  |    <0.001 |
+|           GEN_S2MM_REGISTERS.I_S2MM_DMA_REGISTER                                  |    <0.001 |
+|         I_PRMRY_DATAMOVER                                                         |     0.008 |
+|           GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER                                       |     0.002 |
+|             ENABLE_AXIS_SKID.I_MM2S_SKID_BUF                                      |    <0.001 |
+|             GEN_INCLUDE_MM2S_SF.I_RD_SF                                           |    <0.001 |
+|               I_DATA_FIFO                                                         |    <0.001 |
+|                 BLK_MEM.I_SYNC_FIFOGEN_FIFO                                       |    <0.001 |
+|                   xpm_fifo_instance.xpm_fifo_sync_inst                            |    <0.001 |
+|                     xpm_fifo_base_inst                                            |    <0.001 |
+|                       gen_fwft.rdpp1_inst                                         |    <0.001 |
+|                       gen_sdpram.xpm_memory_base_inst                             |    <0.001 |
+|                       rdp_inst                                                    |    <0.001 |
+|                       rdpp1_inst                                                  |    <0.001 |
+|                       rst_d1_inst                                                 |    <0.001 |
+|                       wrp_inst                                                    |    <0.001 |
+|                       wrpp1_inst                                                  |    <0.001 |
+|                       xpm_fifo_rst_inst                                           |    <0.001 |
+|               OMIT_DRE_CNTL.I_DRE_CNTL_FIFO                                       |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|             I_ADDR_CNTL                                                           |    <0.001 |
+|               GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO                                      |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_CMD_STATUS                                                          |    <0.001 |
+|               GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO                                  |    <0.001 |
+|               I_CMD_FIFO                                                          |    <0.001 |
+|             I_MSTR_PCC                                                            |    <0.001 |
+|               I_STRT_STRB_GEN                                                     |    <0.001 |
+|             I_RD_DATA_CNTL                                                        |    <0.001 |
+|               GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO                                 |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_RD_STATUS_CNTLR                                                     |    <0.001 |
+|             I_RESET                                                               |    <0.001 |
+|           GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER                                       |     0.006 |
+|             ENABLE_AXIS_SKID.I_S2MM_STRM_SKID_BUF                                 |    <0.001 |
+|             GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT                                   |     0.002 |
+|               ENABLE_AXIS_SKID.I_INDET_BTT_SKID_BUF                               |    <0.001 |
+|               I_DATA_FIFO                                                         |     0.001 |
+|                 BLK_MEM.I_SYNC_FIFOGEN_FIFO                                       |     0.001 |
+|                   xpm_fifo_instance.xpm_fifo_sync_inst                            |     0.001 |
+|                     xpm_fifo_base_inst                                            |     0.001 |
+|                       gen_sdpram.xpm_memory_base_inst                             |     0.001 |
+|                       rdp_inst                                                    |    <0.001 |
+|                       rdpp1_inst                                                  |    <0.001 |
+|                       rst_d1_inst                                                 |    <0.001 |
+|                       wrp_inst                                                    |    <0.001 |
+|                       wrpp1_inst                                                  |    <0.001 |
+|                       xpm_fifo_rst_inst                                           |    <0.001 |
+|               I_XD_FIFO                                                           |    <0.001 |
+|                 NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO                                   |    <0.001 |
+|                   xpm_fifo_instance.xpm_fifo_sync_inst                            |    <0.001 |
+|                     xpm_fifo_base_inst                                            |    <0.001 |
+|                       gen_fwft.rdpp1_inst                                         |    <0.001 |
+|                       gen_sdpram.xpm_memory_base_inst                             |    <0.001 |
+|                         gen_wr_a.gen_word_narrow.mem_reg_0_15_0_5                 |    <0.001 |
+|                         gen_wr_a.gen_word_narrow.mem_reg_0_15_6_8                 |    <0.001 |
+|                       rdp_inst                                                    |    <0.001 |
+|                       rdpp1_inst                                                  |    <0.001 |
+|                       rst_d1_inst                                                 |    <0.001 |
+|                       wrp_inst                                                    |    <0.001 |
+|                       wrpp1_inst                                                  |    <0.001 |
+|                       xpm_fifo_rst_inst                                           |    <0.001 |
+|             GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC                                 |    <0.001 |
+|             GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER                                |     0.001 |
+|               GEN_INCLUDE_SCATTER.I_S2MM_SCATTER                                  |    <0.001 |
+|                 I_MSSAI_SKID_BUF                                                  |    <0.001 |
+|                 I_TSTRB_FIFO                                                      |    <0.001 |
+|                   USE_SRL_FIFO.I_SYNC_FIFO                                        |    <0.001 |
+|                     I_SRL_FIFO_RBU_F                                              |    <0.001 |
+|                       CNTR_INCR_DECR_ADDN_F_I                                     |    <0.001 |
+|                       DYNSHREG_F_I                                                |    <0.001 |
+|                 SLICE_INSERTION                                                   |    <0.001 |
+|               I_DRE_CNTL_FIFO                                                     |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_ADDR_CNTL                                                           |    <0.001 |
+|               GEN_ADDR_FIFO.I_ADDR_QUAL_FIFO                                      |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_CMD_STATUS                                                          |    <0.001 |
+|               GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO                                  |    <0.001 |
+|               I_CMD_FIFO                                                          |    <0.001 |
+|             I_RESET                                                               |    <0.001 |
+|             I_S2MM_MMAP_SKID_BUF                                                  |    <0.001 |
+|             I_WR_DATA_CNTL                                                        |    <0.001 |
+|               GEN_DATA_CNTL_FIFO.I_DATA_CNTL_FIFO                                 |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|             I_WR_STATUS_CNTLR                                                     |    <0.001 |
+|               GEN_ENABLE_INDET_BTT.I_SF_DATA_CNTL_STATUS_FIFO                     |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|               I_WRESP_STATUS_FIFO                                                 |    <0.001 |
+|                 USE_SRL_FIFO.I_SYNC_FIFO                                          |    <0.001 |
+|                   I_SRL_FIFO_RBU_F                                                |    <0.001 |
+|                     CNTR_INCR_DECR_ADDN_F_I                                       |    <0.001 |
+|                     DYNSHREG_F_I                                                  |    <0.001 |
+|         I_RST_MODULE                                                              |    <0.001 |
+|           GEN_RESET_FOR_MM2S.RESET_I                                              |    <0.001 |
+|           GEN_RESET_FOR_S2MM.RESET_I                                              |    <0.001 |
+|           REG_HRD_RST                                                             |    <0.001 |
+|           REG_HRD_RST_OUT                                                         |    <0.001 |
+|     axi_interconnect_0                                                            |     0.006 |
+|       m00_couplers                                                                |     0.002 |
+|         auto_pc                                                                   |     0.002 |
+|           inst                                                                    |     0.002 |
+|             gen_axi4_axi3.axi3_conv_inst                                          |     0.002 |
+|               USE_READ.USE_SPLIT_R.read_addr_inst                                 |    <0.001 |
+|                 USE_R_CHANNEL.cmd_queue                                           |    <0.001 |
+|                   inst                                                            |    <0.001 |
+|                     fifo_gen_inst                                                 |    <0.001 |
+|                       inst_fifo_gen                                               |    <0.001 |
+|                         gconvfifo.rf                                              |    <0.001 |
+|                           grf.rf                                                  |    <0.001 |
+|                             gntv_or_sync_fifo.gl0.rd                              |    <0.001 |
+|                               gr1.gr1_int.rfwft                                   |    <0.001 |
+|                               grss.rsts                                           |    <0.001 |
+|                               rpntr                                               |    <0.001 |
+|                             gntv_or_sync_fifo.gl0.wr                              |    <0.001 |
+|                               gwss.wsts                                           |    <0.001 |
+|                               wpntr                                               |    <0.001 |
+|                             gntv_or_sync_fifo.mem                                 |    <0.001 |
+|                               gdm.dm_gen.dm                                       |    <0.001 |
+|                                 RAM_reg_0_31_0_0                                  |    <0.001 |
+|                             rstblk                                                |    <0.001 |
+|                               ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst |    <0.001 |
+|               USE_WRITE.USE_SPLIT_W.write_resp_inst                               |    <0.001 |
+|               USE_WRITE.write_addr_inst                                           |     0.001 |
+|                 USE_BURSTS.cmd_queue                                              |    <0.001 |
+|                   inst                                                            |    <0.001 |
+|                     fifo_gen_inst                                                 |    <0.001 |
+|                       inst_fifo_gen                                               |    <0.001 |
+|                         gconvfifo.rf                                              |    <0.001 |
+|                           grf.rf                                                  |    <0.001 |
+|                             gntv_or_sync_fifo.gl0.rd                              |    <0.001 |
+|                               gr1.gr1_int.rfwft                                   |    <0.001 |
+|                               grss.rsts                                           |    <0.001 |
+|                               rpntr                                               |    <0.001 |
+|                             gntv_or_sync_fifo.gl0.wr                              |    <0.001 |
+|                               gwss.wsts                                           |    <0.001 |
+|                               wpntr                                               |    <0.001 |
+|                             gntv_or_sync_fifo.mem                                 |    <0.001 |
+|                               gdm.dm_gen.dm                                       |    <0.001 |
+|                                 RAM_reg_0_31_0_5                                  |    <0.001 |
+|                             rstblk                                                |    <0.001 |
+|                               ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst |    <0.001 |
+|                 USE_B_CHANNEL.cmd_b_queue                                         |    <0.001 |
+|                   inst                                                            |    <0.001 |
+|                     fifo_gen_inst                                                 |    <0.001 |
+|                       inst_fifo_gen                                               |    <0.001 |
+|                         gconvfifo.rf                                              |    <0.001 |
+|                           grf.rf                                                  |    <0.001 |
+|                             gntv_or_sync_fifo.gl0.rd                              |    <0.001 |
+|                               gr1.gr1_int.rfwft                                   |    <0.001 |
+|                               grss.rsts                                           |    <0.001 |
+|                               rpntr                                               |    <0.001 |
+|                             gntv_or_sync_fifo.gl0.wr                              |    <0.001 |
+|                               gwss.wsts                                           |    <0.001 |
+|                               wpntr                                               |    <0.001 |
+|                             gntv_or_sync_fifo.mem                                 |    <0.001 |
+|                               gdm.dm_gen.dm                                       |    <0.001 |
+|                                 RAM_reg_0_31_0_4                                  |    <0.001 |
+|                             rstblk                                                |    <0.001 |
+|                               ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst |    <0.001 |
+|               USE_WRITE.write_data_inst                                           |    <0.001 |
+|       s00_couplers                                                                |     0.001 |
+|         auto_us                                                                   |     0.001 |
+|           inst                                                                    |     0.001 |
+|             gen_upsizer.gen_full_upsizer.axi_upsizer_inst                         |     0.001 |
+|               USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst              |    <0.001 |
+|                 r.r_pipe                                                          |    <0.001 |
+|               USE_READ.gen_non_fifo_r_upsizer.read_data_inst                      |    <0.001 |
+|               USE_READ.read_addr_inst                                             |    <0.001 |
+|                 GEN_CMD_QUEUE.cmd_queue                                           |    <0.001 |
+|               si_register_slice_inst                                              |    <0.001 |
+|                 ar.ar_pipe                                                        |    <0.001 |
+|       s01_couplers                                                                |     0.001 |
+|         auto_us                                                                   |     0.001 |
+|           inst                                                                    |     0.001 |
+|             gen_upsizer.gen_full_upsizer.axi_upsizer_inst                         |     0.001 |
+|               USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst              |    <0.001 |
+|                 r.r_pipe                                                          |    <0.001 |
+|               USE_READ.gen_non_fifo_r_upsizer.read_data_inst                      |    <0.001 |
+|               USE_READ.read_addr_inst                                             |    <0.001 |
+|                 GEN_CMD_QUEUE.cmd_queue                                           |    <0.001 |
+|               si_register_slice_inst                                              |    <0.001 |
+|                 ar.ar_pipe                                                        |    <0.001 |
+|       s02_couplers                                                                |    <0.001 |
+|         auto_us                                                                   |    <0.001 |
+|           inst                                                                    |    <0.001 |
+|             gen_upsizer.gen_full_upsizer.axi_upsizer_inst                         |    <0.001 |
+|               USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst                    |    <0.001 |
+|               USE_WRITE.write_addr_inst                                           |    <0.001 |
+|                 GEN_CMD_QUEUE.cmd_queue                                           |    <0.001 |
+|               si_register_slice_inst                                              |    <0.001 |
+|                 aw.aw_pipe                                                        |    <0.001 |
+|       xbar                                                                        |     0.001 |
+|         inst                                                                      |     0.001 |
+|           gen_samd.crossbar_samd                                                  |     0.001 |
+|             addr_arbiter_ar                                                       |    <0.001 |
+|             addr_arbiter_aw                                                       |    <0.001 |
+|             gen_decerr_slave.decerr_slave_inst                                    |    <0.001 |
+|             gen_master_slots[0].gen_mi_write.wdata_mux_w                          |    <0.001 |
+|               gen_wmux.wmux_aw_fifo                                               |    <0.001 |
+|                 gen_srls[0].gen_rep[0].srl_nx1                                    |     0.000 |
+|                 gen_srls[0].gen_rep[1].srl_nx1                                    |    <0.001 |
+|             gen_master_slots[0].reg_slice_mi                                      |    <0.001 |
+|               b.b_pipe                                                            |    <0.001 |
+|               r.r_pipe                                                            |    <0.001 |
+|             gen_master_slots[1].gen_mi_write.wdata_mux_w                          |    <0.001 |
+|               gen_wmux.wmux_aw_fifo                                               |    <0.001 |
+|                 gen_srls[0].gen_rep[0].srl_nx1                                    |     0.000 |
+|                 gen_srls[0].gen_rep[1].srl_nx1                                    |    <0.001 |
+|             gen_master_slots[1].reg_slice_mi                                      |    <0.001 |
+|               b.b_pipe                                                            |    <0.001 |
+|               r.r_pipe                                                            |    <0.001 |
+|             gen_slave_slots[0].gen_si_read.si_transactor_ar                       |    <0.001 |
+|             gen_slave_slots[1].gen_si_read.si_transactor_ar                       |    <0.001 |
+|             gen_slave_slots[2].gen_si_write.si_transactor_aw                      |    <0.001 |
+|             gen_slave_slots[2].gen_si_write.splitter_aw_si                        |    <0.001 |
+|             gen_slave_slots[2].gen_si_write.wdata_router_w                        |    <0.001 |
+|               wrouter_aw_fifo                                                     |    <0.001 |
+|                 gen_srls[0].gen_rep[0].srl_nx1                                    |    <0.001 |
+|             splitter_aw_mi                                                        |    <0.001 |
+|     backward_lite_0                                                               |     0.142 |
+|       U0                                                                          |     0.142 |
+|         backward_lite_AXILiteS_s_axi_U                                            |     0.001 |
+|         backward_lite_fpeg8j_U6                                                   |    <0.001 |
+|           backward_lite_ap_fpext_0_no_dsp_32_u                                    |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FLT_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     COND_DET                                                      |    <0.001 |
+|                       MANT_CARRY.MANT_ALL_ZERO_DET                                |    <0.001 |
+|                         CARRY_ZERO_DET                                            |    <0.001 |
+|         backward_lite_sdihbi_U7                                                   |     0.058 |
+|           backward_lite_sdihbi_div_U                                              |     0.058 |
+|             backward_lite_sdihbi_div_u_0                                          |     0.057 |
+|         backward_lite_uitfYi_U1                                                   |     0.001 |
+|           backward_lite_ap_uitofp_4_no_dsp_32_u                                   |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FIX_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     ZERO_DELAY                                                    |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   FIXED_DATA_SIGNED.M_ABS                                         |    <0.001 |
+|                   LZE                                                             |    <0.001 |
+|                     ENCODE[0].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].MUX_0                                               |    <0.001 |
+|                       OP_DEL                                                      |    <0.001 |
+|                         i_pipe                                                    |    <0.001 |
+|                     TWO.DIST_DEL                                                  |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ZERO_DET_CC_1                                                 |    <0.001 |
+|                     ZERO_DET_CC_2.CC                                              |    <0.001 |
+|                   NEED_Z_DET.Z_DET                                                |    <0.001 |
+|                     ENCODE[1].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[2].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     Z_C_DEL                                                       |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   NORM_SHIFT                                                      |    <0.001 |
+|                     MUX_LOOP[1].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     MUX_LOOP[2].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   OP                                                              |    <0.001 |
+|                   ROUND                                                           |    <0.001 |
+|                     LOGIC.RND1                                                    |    <0.001 |
+|                     LOGIC.RND2                                                    |    <0.001 |
+|                     RND_BIT_GEN                                                   |    <0.001 |
+|                       NORM_1_OR_0.STRUCT_REQ.GENERAL.RND1                         |    <0.001 |
+|                   Z_C_DEL                                                         |    <0.001 |
+|                     i_pipe                                                        |    <0.001 |
+|         backward_lite_uitfYi_U2                                                   |    <0.001 |
+|           backward_lite_ap_uitofp_4_no_dsp_32_u                                   |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FIX_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     ZERO_DELAY                                                    |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   FIXED_DATA_SIGNED.M_ABS                                         |    <0.001 |
+|                   LZE                                                             |    <0.001 |
+|                     ENCODE[0].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].MUX_0                                               |    <0.001 |
+|                       OP_DEL                                                      |    <0.001 |
+|                         i_pipe                                                    |    <0.001 |
+|                     TWO.DIST_DEL                                                  |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ZERO_DET_CC_1                                                 |    <0.001 |
+|                     ZERO_DET_CC_2.CC                                              |    <0.001 |
+|                   NEED_Z_DET.Z_DET                                                |    <0.001 |
+|                     ENCODE[1].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[2].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     Z_C_DEL                                                       |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   NORM_SHIFT                                                      |    <0.001 |
+|                     MUX_LOOP[1].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     MUX_LOOP[2].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   OP                                                              |    <0.001 |
+|                   ROUND                                                           |    <0.001 |
+|                     LOGIC.RND1                                                    |    <0.001 |
+|                     LOGIC.RND2                                                    |    <0.001 |
+|                     RND_BIT_GEN                                                   |    <0.001 |
+|                       NORM_1_OR_0.STRUCT_REQ.GENERAL.RND1                         |    <0.001 |
+|                   Z_C_DEL                                                         |    <0.001 |
+|                     i_pipe                                                        |    <0.001 |
+|         backward_lite_uitfYi_U3                                                   |    <0.001 |
+|           backward_lite_ap_uitofp_4_no_dsp_32_u                                   |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FIX_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     ZERO_DELAY                                                    |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   FIXED_DATA_SIGNED.M_ABS                                         |    <0.001 |
+|                   LZE                                                             |    <0.001 |
+|                     ENCODE[0].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].MUX_0                                               |    <0.001 |
+|                       OP_DEL                                                      |    <0.001 |
+|                         i_pipe                                                    |    <0.001 |
+|                     TWO.DIST_DEL                                                  |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ZERO_DET_CC_1                                                 |    <0.001 |
+|                     ZERO_DET_CC_2.CC                                              |    <0.001 |
+|                   NEED_Z_DET.Z_DET                                                |    <0.001 |
+|                     ENCODE[1].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[2].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     Z_C_DEL                                                       |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   NORM_SHIFT                                                      |    <0.001 |
+|                     MUX_LOOP[1].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     MUX_LOOP[2].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   OP                                                              |    <0.001 |
+|                   ROUND                                                           |    <0.001 |
+|                     LOGIC.RND1                                                    |    <0.001 |
+|                     LOGIC.RND2                                                    |    <0.001 |
+|                     RND_BIT_GEN                                                   |    <0.001 |
+|                       NORM_1_OR_0.STRUCT_REQ.GENERAL.RND1                         |    <0.001 |
+|                   Z_C_DEL                                                         |    <0.001 |
+|                     i_pipe                                                        |    <0.001 |
+|         backward_lite_uitfYi_U4                                                   |    <0.001 |
+|           backward_lite_ap_uitofp_4_no_dsp_32_u                                   |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FIX_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     ZERO_DELAY                                                    |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   FIXED_DATA_SIGNED.M_ABS                                         |    <0.001 |
+|                   LZE                                                             |    <0.001 |
+|                     ENCODE[0].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].MUX_0                                               |    <0.001 |
+|                       OP_DEL                                                      |    <0.001 |
+|                         i_pipe                                                    |    <0.001 |
+|                     TWO.DIST_DEL                                                  |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ZERO_DET_CC_1                                                 |    <0.001 |
+|                     ZERO_DET_CC_2.CC                                              |    <0.001 |
+|                   NEED_Z_DET.Z_DET                                                |    <0.001 |
+|                     ENCODE[1].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[2].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     Z_C_DEL                                                       |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   NORM_SHIFT                                                      |    <0.001 |
+|                     MUX_LOOP[1].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     MUX_LOOP[2].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   OP                                                              |    <0.001 |
+|                   ROUND                                                           |    <0.001 |
+|                     LOGIC.RND1                                                    |    <0.001 |
+|                     LOGIC.RND2                                                    |    <0.001 |
+|                     RND_BIT_GEN                                                   |    <0.001 |
+|                       NORM_1_OR_0.STRUCT_REQ.GENERAL.RND1                         |    <0.001 |
+|                   Z_C_DEL                                                         |    <0.001 |
+|                     i_pipe                                                        |    <0.001 |
+|         backward_lite_uitfYi_U5                                                   |    <0.001 |
+|           backward_lite_ap_uitofp_4_no_dsp_32_u                                   |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FIX_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     ZERO_DELAY                                                    |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   FIXED_DATA_SIGNED.M_ABS                                         |    <0.001 |
+|                   LZE                                                             |    <0.001 |
+|                     ENCODE[0].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].MUX_0                                               |    <0.001 |
+|                       OP_DEL                                                      |    <0.001 |
+|                         i_pipe                                                    |    <0.001 |
+|                     TWO.DIST_DEL                                                  |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ZERO_DET_CC_1                                                 |    <0.001 |
+|                     ZERO_DET_CC_2.CC                                              |    <0.001 |
+|                   NEED_Z_DET.Z_DET                                                |    <0.001 |
+|                     ENCODE[1].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[2].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     Z_C_DEL                                                       |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   NORM_SHIFT                                                      |    <0.001 |
+|                     MUX_LOOP[1].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     MUX_LOOP[2].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   OP                                                              |    <0.001 |
+|                   ROUND                                                           |    <0.001 |
+|                     LOGIC.RND1                                                    |    <0.001 |
+|                     LOGIC.RND2                                                    |    <0.001 |
+|                     RND_BIT_GEN                                                   |    <0.001 |
+|                       NORM_1_OR_0.STRUCT_REQ.GENERAL.RND1                         |    <0.001 |
+|                   Z_C_DEL                                                         |    <0.001 |
+|                     i_pipe                                                        |    <0.001 |
+|         batch_x_mat_V_U                                                           |     0.009 |
+|           backward_lite_batcud_ram_U                                              |     0.009 |
+|         batch_y_mat_V_U                                                           |     0.002 |
+|           backward_lite_nn_dEe_ram_U                                              |     0.002 |
+|         nn_out_mat_V_U                                                            |     0.002 |
+|           backward_lite_nn_dEe_ram_U                                              |     0.002 |
+|         smooth_grad_V_U                                                           |     0.007 |
+|           backward_lite_smobkb_ram_U                                              |     0.007 |
+|     equation_matrix_0                                                             |     0.024 |
+|       U0                                                                          |     0.024 |
+|         dataIn_V_U                                                                |     0.002 |
+|           equation_matrix_dcud_ram_U                                              |     0.002 |
+|         dataOut_V_U                                                               |     0.006 |
+|           equation_matrix_dbkb_ram_U                                              |     0.006 |
+|         dataOut_last_U                                                            |    <0.001 |
+|           equation_matrix_ddEe_ram_U                                              |    <0.001 |
+|             ram_reg_0_127_0_0                                                     |    <0.001 |
+|             ram_reg_0_31_0_0                                                      |    <0.001 |
+|         equation_matrix_ffYi_U2                                                   |    <0.001 |
+|           equation_matrix_ap_fpext_0_no_dsp_32_u                                  |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FLT_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     COND_DET                                                      |    <0.001 |
+|                       MANT_CARRY.MANT_ALL_ZERO_DET                                |    <0.001 |
+|                         CARRY_ZERO_DET                                            |    <0.001 |
+|         equation_matrix_ueOg_U1                                                   |     0.001 |
+|           equation_matrix_ap_uitofp_4_no_dsp_32_u                                 |    <0.001 |
+|             U0                                                                    |    <0.001 |
+|               i_synth                                                             |    <0.001 |
+|                 FIX_TO_FLT_OP.SPD.OP                                              |    <0.001 |
+|                   EXP                                                             |    <0.001 |
+|                     ZERO_DELAY                                                    |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   FIXED_DATA_SIGNED.M_ABS                                         |    <0.001 |
+|                   LZE                                                             |    <0.001 |
+|                     ENCODE[0].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].DIST_DEL                                            |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[1].MUX_0                                               |    <0.001 |
+|                       OP_DEL                                                      |    <0.001 |
+|                         i_pipe                                                    |    <0.001 |
+|                     TWO.DIST_DEL                                                  |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ZERO_DET_CC_1                                                 |    <0.001 |
+|                     ZERO_DET_CC_2.CC                                              |    <0.001 |
+|                   NEED_Z_DET.Z_DET                                                |    <0.001 |
+|                     ENCODE[1].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     ENCODE[2].Z_DET_DEL                                           |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     Z_C_DEL                                                       |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   NORM_SHIFT                                                      |    <0.001 |
+|                     MUX_LOOP[1].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                     MUX_LOOP[2].DEL_SHIFT                                         |    <0.001 |
+|                       i_pipe                                                      |    <0.001 |
+|                   OP                                                              |    <0.001 |
+|                   ROUND                                                           |    <0.001 |
+|                     LOGIC.RND1                                                    |    <0.001 |
+|                     LOGIC.RND2                                                    |    <0.001 |
+|                     RND_BIT_GEN                                                   |    <0.001 |
+|                       NORM_1_OR_0.STRUCT_REQ.GENERAL.RND1                         |    <0.001 |
+|                   Z_C_DEL                                                         |    <0.001 |
+|                     i_pipe                                                        |    <0.001 |
+|     processing_system7_0                                                          |     1.258 |
+|       inst                                                                        |     1.258 |
+|     ps7_0_axi_periph                                                              |     0.005 |
+|       s00_couplers                                                                |     0.004 |
+|         auto_pc                                                                   |     0.004 |
+|           inst                                                                    |     0.004 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s                                  |     0.004 |
+|               RD.ar_channel_0                                                     |    <0.001 |
+|                 ar_cmd_fsm_0                                                      |    <0.001 |
+|                 cmd_translator_0                                                  |    <0.001 |
+|                   incr_cmd_0                                                      |    <0.001 |
+|                   wrap_cmd_0                                                      |    <0.001 |
+|               RD.r_channel_0                                                      |    <0.001 |
+|                 rd_data_fifo_0                                                    |    <0.001 |
+|                 transaction_fifo_0                                                |    <0.001 |
+|               SI_REG                                                              |     0.002 |
+|                 ar.ar_pipe                                                        |    <0.001 |
+|                 aw.aw_pipe                                                        |    <0.001 |
+|                 b.b_pipe                                                          |    <0.001 |
+|                 r.r_pipe                                                          |    <0.001 |
+|               WR.aw_channel_0                                                     |    <0.001 |
+|                 aw_cmd_fsm_0                                                      |    <0.001 |
+|                 cmd_translator_0                                                  |    <0.001 |
+|                   incr_cmd_0                                                      |    <0.001 |
+|                   wrap_cmd_0                                                      |    <0.001 |
+|               WR.b_channel_0                                                      |    <0.001 |
+|                 bid_fifo_0                                                        |    <0.001 |
+|                 bresp_fifo_0                                                      |    <0.001 |
+|       xbar                                                                        |     0.001 |
+|         inst                                                                      |     0.001 |
+|           gen_sasd.crossbar_sasd_0                                                |     0.001 |
+|             addr_arbiter_inst                                                     |    <0.001 |
+|             gen_decerr.decerr_slave_inst                                          |    <0.001 |
+|             reg_slice_r                                                           |    <0.001 |
+|             splitter_ar                                                           |    <0.001 |
+|             splitter_aw                                                           |    <0.001 |
+|     rst_ps7_0_100M                                                                |    <0.001 |
+|       U0                                                                          |    <0.001 |
+|         EXT_LPF                                                                   |    <0.001 |
+|           ACTIVE_LOW_AUX.ACT_LO_AUX                                               |    <0.001 |
+|           ACTIVE_LOW_EXT.ACT_LO_EXT                                               |    <0.001 |
+|         SEQ                                                                       |    <0.001 |
+|           SEQ_COUNTER                                                             |    <0.001 |
++-----------------------------------------------------------------------------------+-----------+
+
+

@@ -1,0 +1,68 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'manoh' on host 'manoharvohra-pc' (Windows NT_amd64 version 6.2) on Thu Jan 31 16:39:58 +0400 2019
+INFO: [HLS 200-10] In directory 'C:/Users/manoh/Desktop/ECTE451-458/equation_matrix'
+INFO: [HLS 200-10] Opening project 'C:/Users/manoh/Desktop/ECTE451-458/equation_matrix/equation_matrix'.
+INFO: [HLS 200-10] Adding design file 'main.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'C:/Users/manoh/Desktop/ECTE451-458/equation_matrix/equation_matrix/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [HLS 200-10] Analyzing design file 'main.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 103.211 ; gain = 46.109
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 103.211 ; gain = 46.109
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<32, 16, true, (ap_q_mode)5, (ap_o_mode)3, 0>::to_float' into 'equation_matrix' (main.cpp:55).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 115.238 ; gain = 58.137
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 121.766 ; gain = 64.664
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'input.data' (main.cpp:13).
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (main.cpp:22) in function 'equation_matrix' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-2' (main.cpp:27) in function 'equation_matrix' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-3' (main.cpp:32) in function 'equation_matrix' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-4' (main.cpp:37) in function 'equation_matrix' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-5' (main.cpp:42) in function 'equation_matrix' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-6' (main.cpp:47) in function 'equation_matrix' completely.
+INFO: [XFORM 203-102] Partitioning array 'dataIn.V' (main.cpp:18) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (main.cpp:53:32) to (main.cpp:53:26) in function 'equation_matrix'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (main.cpp:52:16) in function 'equation_matrix'... converting 289 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 158.215 ; gain = 101.113
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (main.cpp:52:16) in function 'equation_matrix'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 169.844 ; gain = 112.742
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'equation_matrix' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'equation_matrix' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 12.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 25.153 seconds; current allocated memory: 127.936 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 2.585 seconds; current allocated memory: 134.819 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'equation_matrix' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'equation_matrix/input_data' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'equation_matrix/input_last' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'equation_matrix/output_data' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'equation_matrix/output_last' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'equation_matrix' to 'ap_ctrl_none'.
+INFO: [SYN 201-210] Renamed object name 'equation_matrix_dataOut_V' to 'equation_matrix_dbkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'equation_matrix_dataOut_last' to 'equation_matrix_dcud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'equation_matrix_uitofp_32ns_32_6_1' to 'equation_matrix_udEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'equation_matrix_fpext_32ns_64_1_1' to 'equation_matrix_feOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'equation_matrix_feOg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'equation_matrix_udEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'equation_matrix'.
+INFO: [HLS 200-111]  Elapsed time: 3.75 seconds; current allocated memory: 148.334 MB.
+INFO: [RTMG 210-278] Implementing memory 'equation_matrix_dbkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'equation_matrix_dcud_ram (RAM)' using distributed RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:25 ; elapsed = 00:00:47 . Memory (MB): peak = 245.766 ; gain = 188.664
+INFO: [SYSC 207-301] Generating SystemC RTL for equation_matrix.
+INFO: [VHDL 208-304] Generating VHDL RTL for equation_matrix.
+INFO: [VLOG 209-307] Generating Verilog RTL for equation_matrix.
+INFO: [HLS 200-112] Total elapsed time: 46.786 seconds; peak allocated memory: 148.334 MB.
