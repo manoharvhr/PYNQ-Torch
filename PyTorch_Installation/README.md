@@ -81,7 +81,7 @@ print(x+y)
 ```
 
 ## Image File
-For your convenience, an image file with everything pre-installed is available [here]().
+For your convenience, an image file with everything pre-installed is available [here](https://github.com/manoharvhr/PYNQ-Torch/releases/tag/v1.0).
 
 ## Simple illustration of the Framework
 Now that we have ported PyTorch on the board, we can begin embedding accelerators within machine learning-based applications. An example is can be found in the **Example** folder.

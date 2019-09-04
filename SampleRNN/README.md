@@ -80,4 +80,4 @@ python3 profiling.py --exp TEST64 --frame_size 16 4 --n_rnn 2 --dataset piano --
 This command generates one second of audio @ 16000Hz
 
 ## PYNQ-Z1 Image
-An image file with PyTorch v0.4.1 on PYNQ OS v2.3 can be downloaded from [here](). This also includes SampleRNN files.
+An image file with PyTorch v0.4.1 on PYNQ OS v2.3 can be downloaded from [here](https://github.com/manoharvhr/PYNQ-Torch/releases/tag/v1.1). This also includes SampleRNN files.
