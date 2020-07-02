@@ -1,7 +1,7 @@
 # Installing PyTorch v1.2.0 on PYNQ OS v2.4
 
 ## Prerequisites
-Before beginning the following process, you must have a 64GB Micro SD card with [PYNQ OS v2.4](https://files.digilent.com/Products/PYNQ/pynq_z1_v2.4.zip?_ga=2.266370504.733201723.1567367199-111888654.1566846051) flashed onto it. This can be done using the [Etcher](https://www.balena.io/etcher/). Once booted up, continue the following steps.
+Before beginning the following process, you must have a 64GB Micro SD card with [PYNQ OS v2.4](https://files.digilent.com/Products/PYNQ/pynq_z1_v2.4.zip?_ga=2.266370504.733201723.1567367199-111888654.1566846051) flashed onto it. This can be done using [Etcher](https://www.balena.io/etcher/). Once booted up, continue the following steps.
 
 ## Steps
 Update all packages & restart the board:
